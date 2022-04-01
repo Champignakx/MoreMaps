@@ -1,0 +1,95 @@
+This mod adds map items of vanilla map locations and modded map locations.
+They can all be disabled through Sandbox options if you don't think a specific location should have a map.
+Maps of mods will also be disabled if you haven't activated the mod. (Even if the tickbox is checked if you don't have the mods the corresponding maps won't spawn.)
+
+[h1]Map items of vanilla map locations:[/h1]
+[list]
+[*] Valley Station
+[*] Valley Station - Mall Area
+[*] Valley Station - Summer Camp (rare)
+[*] Ekron (compatible with the mod "New Ekron")
+[*] Riverside Country Club  (uncommon)
+[*] Scenic Grove Mobile Park 
+[*] Dixie Mobile Park
+[*] Pony Roam-O (uncommon)
+[*] Warehouse Complex (south west of muldraugh)
+[*] Eastern Railyard 
+[*] 5x Cabins (very rare, not found in the usual places)
+[*] Camp grounds (rare)
+[*] Louisville (COMPLETE map of louisville, VERY rare)
+[*] 15x Louisville Districts (15 maps of different districts, uncommon)
+[*] Western Farmlands (rare)
+[*] Western Abandoned Factory (rare)
+[*] Military Base (very rare, not found in the usual places)
+[*] Kentucky (COMPLETE map of Knox Country, INSANELY RARE, DISABLED by default, must be enabled in sandbox options, not found in the usual places)
+[/list]
+
+[h1]Map items of modded map locations: [/h1]
+[list]
+[*] Raven Creek (COMPLETE map of raven creek, VERY rare)
+[*] 3x Raven Creek Districts (3 maps of different districts - SouthEast Suburbs, Northern Central, and Western Port Facilities, rare)
+[*] Grapeseed
+[*] Blackwood
+[*] Pitstop
+[*] New Ekron
+[*] Lake Ivy Township
+[*] 5x Weather Stations (5 maps of different weather stations from the "Save Our Station!" mod, very rare, the secret one is not found in usual places)
+[*] [i][Updated 01/02/2022][/i] Rosewood Expansion
+[*] Over The River
+[*] Little Township
+[*] Linden
+[*] [i][Updated 29/01/2022][/i] Refordville
+[*] West Point South Trailer Park
+[*] Kingsmouth (the Kingsmouth In KY version, that is an island in the ohio river)
+[*] Survivor Warehouse (rare)
+[*] [i][Added 25/01/2022][/i] Chinatown
+[*] [i][Added 01/02/2022][/i] Old's Military Airfield (rare, not found in the usual places)
+[*] [i][Added 01/02/2022][/i] Chernaville
+[*] [i][Added 13/02/2022][/i] Blueberry
+[*] [i][Added 21/02/2022][/i] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] [i][Added 21/02/2022][/i] 3x Slocan lake maps ([b]REQUIRES[/b ] a mod, see [b]WARNING[/b] section)
+[*] [i][Added 21/02/2022][/i] 2x Fort Knox linked to Eerie Country ([b]REQUIRES a mod, see [b]WARNING[/b] section)
+[*] [i][Added 21/02/2022][/i] Fort Redstone ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] [i][Added 21/02/2022][/i] West Point Expansion ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] [i][Added 21/02/2022][/i] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[/list]
+[u][b]Exceptions:[/b][/u]
+[list]
+[*] Bedford Falls: The Beford Falls mod itself already adds a map item, so no need for me to add another. I tweaked its distribution tables though.
+[*] St Bernard's Hill : Idem.
+[/list]
+Some mods have not added the ingame map feature to their map zones yet, so I can't make map items for them.
+Once they have mapped their mod, I will add the corresponding item (if they haven't already).
+
+[h1]WARNING : READ THIS[/h1]
+If you want to use one of these maps items:
+Eerie Country maps, Slocan Lake maps, Fort Knox linked to Eerie Country, Fort Redstone, West Point Expansion, Glenport,
+for each you will need a mod;
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763516866]InGameMaps[Eerie Country][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763522853]InGameMaps[Slocan Lake][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763519548]InGameMaps[Fort Knox linked to Eery Country][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763518493]InGameMaps[Fort Redstone][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763522853]InGameMaps[West Point Expansion][/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763521467]InGameMaps[Glenport][/url]
+
+
+[u][b]ALSO:[/b][/u] If it still doesn't work, try changing the load order. Most problems come from the load order. If you don't know how to change the mod loading order, check out the mod "Mod Manager".
+
+If you are still struggling getting the map data of these old mods to show up on the world map, take your problem to alree_unjammer, it is not my responsability.
+
+[h1]Full credit and many thanks to alree_unjammer for his fantastic work on his mods [i]Ingame Maps[/i] ![/h1]
+
+
+[h1]Where can I find these maps?[/h1]
+[list]
+[*] in vehicle gloveboxes,
+[*] on magazine racks,
+[*] in sidetables that aren't in bedrooms (very rare),
+[*] in survivor bags, hiking bags, duffel bags, school bags, golf bags and satchels
+[*] in mechanics crates and shelves (rare)
+[*] On the following zombies :raiders, hunters, survivalists, police officers, private militia, military soldiers and officers, mechanics, fishermen, campers, bikers, bandits, ambulance drivers, park rangers, cyclists, tourists, traders, postmen, air crew (varying chance for individual maps relative to the outfit : military maps and big maps on military zeds, town maps on town zeds, countryside maps on country side zeds):
+[*] through Foraging (as junk category, starting skill level 4, can be disabled in sandbox options)
+[/list]
+
+Workshop ID: 2729427093
+Mod ID: MoreMaps

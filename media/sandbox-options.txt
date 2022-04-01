@@ -1,0 +1,361 @@
+VERSION = 1,
+
+
+option MoreMaps.ForageableMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ForageableMaps,
+}
+
+option MoreMaps.KentuckyCompleteMap
+{
+	type = boolean,
+	default = false,
+	page = MoreMaps,
+	translation = MoreMaps_KentuckyCompleteMap,
+}
+
+option MoreMaps.LouisVilleCompleteMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_LouisVilleCompleteMap,
+}
+
+option MoreMaps.LouisVilleDistrictMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_LouisVilleDistrictMaps,
+}
+
+option MoreMaps.TrailerParkMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_TrailerParkMaps,
+}
+
+option MoreMaps.ValleyStationMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ValleyStationMap,
+}
+
+option MoreMaps.ValleyStationMallAreaMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ValleyStationMallAreaMap,
+}
+
+option MoreMaps.EasternSummerCampMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_EasternSummerCampMap,
+}
+
+
+option MoreMaps.AbandonedFactoryMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_AbandonedFactoryMap,
+}
+
+option MoreMaps.EkronMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_EkronMap,
+}
+
+option MoreMaps.MilitaryMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MilitaryMaps,
+}
+
+option MoreMaps.RiversideCountryClubMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RiversideCountryClubMap,
+}
+
+option MoreMaps.SmallTownWestMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_SmallTownWestMap,
+}
+
+option MoreMaps.PonyRoamOMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_PonyRoamOMap,
+}
+
+option MoreMaps.MuldraughRailyardMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MuldraughRailyardMap,
+}
+
+option MoreMaps.MuldraughWarehouseComplexMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MuldraughWarehouseComplexMap,
+}
+option MoreMaps.CabinLocations
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CabinLocations,
+}
+option MoreMaps.CampGroundsLocation
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CampGroundsLocation,
+}
+
+
+option MoreMaps.GrapeseedMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_GrapeseedMap,
+}
+
+
+
+option MoreMaps.BlackwoodMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_BlackwoodMap,
+}
+
+option MoreMaps.PitstopMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_PitstopMap,
+}
+
+option MoreMaps.OverTheRiverMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_OverTheRiverMap,
+}
+
+
+option MoreMaps.LakeIvyMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_LakeIvyMap,
+}
+
+option MoreMaps.WeatherStationLocations
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WeatherStationLocations,
+}
+option MoreMaps.CompleteRavenCreekMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CompleteRavenCreekMap,
+}
+option MoreMaps.RavenCreekDistrictMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RavenCreekDistrictMaps,
+}
+
+
+option MoreMaps.RosewoodExpansionMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RosewoodExpansionMap,
+}
+
+option MoreMaps.LittleTownshipMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_LittleTownshipMap,
+}
+option MoreMaps.LindenMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_LindenMap,
+}
+
+option MoreMaps.RefordvilleMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RefordvilleMap,
+}
+
+option MoreMaps.ChernavilleMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ChernavilleMap,
+}
+
+option MoreMaps.ChinatownMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ChinatownMap,
+}
+
+option MoreMaps.BlueberryMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_BlueberryMap,
+}
+
+
+option MoreMaps.WestPointSouthTrailerParkMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WestPointSouthTrailerParkMap,
+}
+
+
+option MoreMaps.KingsmouthMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_KingsmouthMap,
+}
+
+option MoreMaps.SurvivorWarehouseLocation
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_SurvivorWarehouseLocation,
+}
+
+option MoreMaps.MilitaryAirportMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MilitaryAirportMap,
+}
+
+
+
+
+
+option MoreMaps.WestPointExpansionMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WestPointExpansionMap,
+}
+
+option MoreMaps.GlenportMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_GlenportMap,
+}
+
+option MoreMaps.CompleteEerieCountryMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CompleteEerieCountryMap,
+}
+
+option MoreMaps.EerieCountryDifferentMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_EerieCountryDifferentMaps,
+}
+
+option MoreMaps.SlocanLakeMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_SlocanLakeMaps,
+}
+
+option MoreMaps.FortKnoxMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortKnoxMaps,
+}
+
+option MoreMaps.FortRedstoneMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortRedstoneMap,
+}
