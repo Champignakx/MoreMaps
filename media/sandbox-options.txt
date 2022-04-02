@@ -235,6 +235,14 @@ option MoreMaps.CONResearchMap
 	translation = MoreMaps_CONResearchMap,
 }
 
+option MoreMaps.GreenleafMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_GreenleafMap,
+}
+
 option MoreMaps.LittleTownshipMap
 {
 	type = boolean,

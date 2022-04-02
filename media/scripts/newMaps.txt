@@ -761,6 +761,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item GreenleafMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Greenleaf Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           GreenleafMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item WestPointExpansionMap
     {

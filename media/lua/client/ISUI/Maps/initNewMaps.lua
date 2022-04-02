@@ -542,7 +542,7 @@ local function initMapReveals()
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(9600, 12600, 9899, 12899)
-		overlayPNG(mapUI, 9601, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
+		--overlayPNG(mapUI, 9601, 12601, 0.10, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 	
@@ -553,7 +553,7 @@ local function initMapReveals()
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(9300, 12600, 9599, 12899)
-		overlayPNG(mapUI, 9301, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
+		--overlayPNG(mapUI, 9301, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 
@@ -628,7 +628,7 @@ local function initMapReveals()
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(11100, 6900, 11399, 7199)
-		overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
+		--overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 	
@@ -834,6 +834,16 @@ local function initMapReveals()
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(8700, 9600, 9500, 10500)
 		overlayPNG(mapUI, 8700, 10150, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
+	-- Greenleaf
+	LootMaps.Init.GreenleafMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Greenleaf')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6300, 10200, 6899, 10499)
 		MapUtils.overlayPaper(mapUI)
 	end
 

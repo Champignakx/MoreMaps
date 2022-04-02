@@ -1352,6 +1352,26 @@ local function initMapDistributions()
          table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.RavenCreekPortFacilitiesMap");
          table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/5);
     end
+	if SandboxVars.MoreMaps.GreenleafMap and getActivatedMods():contains("Greenleaf") then
+        -- Greenleaf Map
+        addMapToTownZombies("Base.BlueberryMap", baseChanceZombies);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.GreenleafMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.GreenleafMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.GreenleafMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.GreenleafMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.GreenleafMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.GreenleafMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.GreenleafMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.GreenleafMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
 
 
     -- MAPS REQUIRING THE MOD "INGAME MAPS TO WORK"

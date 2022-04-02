@@ -96,6 +96,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_MilitaryAirportMap_tooltip = "North West of Muldraugh. Rare. Disabled if military maps are disabled",
 	Sandbox_MoreMaps_BlueberryMap="Blueberry Map",
 	Sandbox_MoreMaps_BlueberryMap_tooltip="West of Rosewood, after Grapeseed",
+	Sandbox_MoreMaps_GreenleafMap="Greenleaf Map",
+	Sandbox_MoreMaps_GreenleafMap_tooltip="North West of Rosewood",
 
 	Sandbox_MoreMaps_WestPointExpansionMap = "West Point Expansion Map",
 	Sandbox_MoreMaps_GlenportMap = "Glenport Map",
