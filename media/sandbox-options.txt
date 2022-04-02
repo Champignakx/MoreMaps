@@ -219,6 +219,14 @@ option MoreMaps.RosewoodExpansionMap
 	translation = MoreMaps_RosewoodExpansionMap,
 }
 
+option MoreMaps.MarchRidgeExpansionMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MarchRidgeExpansionMap,
+}
+
 option MoreMaps.LittleTownshipMap
 {
 	type = boolean,

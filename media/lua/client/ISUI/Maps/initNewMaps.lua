@@ -534,6 +534,17 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
+	
+	--  MarchRidgeExpansion map,
+	LootMaps.Init.MarchRidgeExpansionMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/MREX')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9600, 12600, 9899, 12899)
+		overlayPNG(mapUI, 9601, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	--  RosewoodExpansion map,
 	LootMaps.Init.RosewoodExpansionMap = function(mapUI)

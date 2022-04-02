@@ -1009,6 +1009,26 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.StationMULD650Location");
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/5);
     end
+	if SandboxVars.MoreMaps.MarchRidgeExpansionMap and getActivatedMods():contains("MRE") then
+        
+        addMapToTownZombies("Base.MarchRidgeExpansionMap", baseChanceZombies);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MarchRidgeExpansionMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
     if SandboxVars.MoreMaps.RosewoodExpansionMap and getActivatedMods():contains("pz_rosewoodexp_map") then
         
         addMapToTownZombies("Base.RosewoodExpansionMap", baseChanceZombies);

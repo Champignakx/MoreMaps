@@ -545,6 +545,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item MarchRidgeExpansionMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    March Ridge Expansion Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           MarchRidgeExpansionMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item RosewoodExpansionMap
     {
