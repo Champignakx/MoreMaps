@@ -545,6 +545,17 @@ local function initMapReveals()
 		overlayPNG(mapUI, 9601, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
+	
+	--  C.O.N. Research & Testing Facitity map,
+	LootMaps.Init.CONResearchMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/CONRTF')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9300, 12600, 9599, 12899)
+		overlayPNG(mapUI, 9301, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	--  RosewoodExpansion map,
 	LootMaps.Init.RosewoodExpansionMap = function(mapUI)

@@ -227,6 +227,14 @@ option MoreMaps.MarchRidgeExpansionMap
 	translation = MoreMaps_MarchRidgeExpansionMap,
 }
 
+option MoreMaps.CONResearchMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CONResearchMap,
+}
+
 option MoreMaps.LittleTownshipMap
 {
 	type = boolean,

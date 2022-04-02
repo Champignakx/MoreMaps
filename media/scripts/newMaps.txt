@@ -557,6 +557,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item CONResearchMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    C.O.N. Research & Testing Facility Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           CONResearchMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item RosewoodExpansionMap
     {
