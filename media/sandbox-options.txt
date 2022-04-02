@@ -266,6 +266,13 @@ option MoreMaps.BlueberryMap
 	translation = MoreMaps_BlueberryMap,
 }
 
+option MoreMaps.WestPointFireDepartmentMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WestPointFireDepartmentMap,
+}
 
 option MoreMaps.WestPointSouthTrailerParkMap
 {

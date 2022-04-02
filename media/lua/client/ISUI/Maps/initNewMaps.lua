@@ -599,6 +599,17 @@ local function initMapReveals()
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
 
+	--  West Point Fire Department Map,
+	LootMaps.Init.WestPointFireDepartmentMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/West Point Fire Department')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(11100, 6900, 11399, 7199)
+		overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
 	--  West Point South Trailer Park Map,
 	LootMaps.Init.WestPointSouthTrailerParkMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()

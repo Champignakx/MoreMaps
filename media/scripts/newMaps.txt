@@ -582,6 +582,18 @@ module Base
         WorldStaticModel = Map,
     }
 
+	item WestPointFireDepartmentMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    West Point's Fire Department Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           WestPointFireDepartmentMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+	
     item WestPointSouthTrailerParkMap
     {
         DisplayCategory = Cartography,

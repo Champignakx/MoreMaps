@@ -1183,6 +1183,29 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
+		if SandboxVars.MoreMaps.WestPointFireDepartmentMap and getActivatedMods():contains("West Point Fire Department") then
+            forageDefs["WestPointFireDepartmentMap"] = {
+                type = "Base.WestPointFireDepartmentMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
         if SandboxVars.MoreMaps.WestPointSouthTrailerParkMap and getActivatedMods():contains("WestPointTrailerParkAndVhsStore") then
             forageDefs["WestPointSouthTrailerParkMap"] = {
                 type = "Base.WestPointSouthTrailerParkMap",
