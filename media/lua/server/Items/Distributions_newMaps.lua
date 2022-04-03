@@ -1354,7 +1354,7 @@ local function initMapDistributions()
     end
 	if SandboxVars.MoreMaps.GreenleafMap and getActivatedMods():contains("Greenleaf") then
         -- Greenleaf Map
-        addMapToTownZombies("Base.BlueberryMap", baseChanceZombies);
+        addMapToTownZombies("Base.GreenleafMap", baseChanceZombies);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.GreenleafMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.GreenleafMap");
