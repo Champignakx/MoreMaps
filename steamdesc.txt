@@ -46,10 +46,10 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 01/02/2022][/i] Old's Military Airfield (rare, not found in the usual places)
 [*] [i][Added 01/02/2022][/i] Chernaville
 [*] [i][Added 13/02/2022][/i] Blueberry
-[*] [i][Added 01/04/2022][/i] West Point Fire Department
-[*] {i}{added 01/04/2022][/i] March Ridge Expansion
-[*] [i][Added 02/04/2022][/i] C.O.N. Research & Testing Facility
-[*] [i][Added 02/04/2022][/i] Greenleaf
+[*] [i][Added 01/04/2022][/i] West Point Fire Department (added by NCrawler)
+[*] [i]{added 01/04/2022][/i] March Ridge Expansion (added by NCrawler)
+[*] [i][Added 02/04/2022][/i] C.O.N. Research & Testing Facility (added by NCrawler)
+[*] [i][Added 02/04/2022][/i] Greenleaf (added by NCrawler)
 [*] [i][Added 21/02/2022][/i] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] 3x Slocan lake maps ([b]REQUIRES[/b ] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] 2x Fort Knox linked to Eerie Country ([b]REQUIRES a mod, see [b]WARNING[/b] section)
@@ -67,21 +67,9 @@ Once they have mapped their mod, I will add the corresponding item (if they have
 
 [h1]WARNING : READ THIS[/h1]
 If you want to use one of these maps items:
-Eerie Country maps, Slocan Lake maps, Fort Knox linked to Eerie Country, Fort Redstone, West Point Expansion, Glenport,
-for each you will need a mod;
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763516866]InGameMaps[Eerie Country][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763522853]InGameMaps[Slocan Lake][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763519548]InGameMaps[Fort Knox linked to Eery Country][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763518493]InGameMaps[Fort Redstone][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763522853]InGameMaps[West Point Expansion][/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2763521467]InGameMaps[Glenport][/url]
-
-
-[u][b]ALSO:[/b][/u] If it still doesn't work, try changing the load order. Most problems come from the load order. If you don't know how to change the mod loading order, check out the mod "Mod Manager".
-
-If you are still struggling getting the map data of these old mods to show up on the world map, take your problem to alree_unjammer, it is not my responsability.
-
-[h1]Full credit and many thanks to alree_unjammer for his fantastic work on his mods [i]Ingame Maps[/i] ![/h1]
+Eerie Country maps, Slocan Lake maps, Fort Knox linked to Eerie Country, West Point Expansion, Glenport,
+for each you will need a mod :
+[b]It seems like these mods have been taken down.[/b] So the map items of those map mods won't work anymore. I will leave the items as they are in case they are uploaded again.
 
 
 [h1]Where can I find these maps?[/h1]
@@ -95,5 +83,10 @@ If you are still struggling getting the map data of these old mods to show up on
 [*] through Foraging (as junk category, starting skill level 4, can be disabled in sandbox options)
 [/list]
 
-Workshop ID: 2729427093
-Mod ID: MoreMaps
+[h1]Can I contribute ?[/h1]
+
+If you want to suggest adding a map item for a specific mod, leave a comment below and I'll see what I can do.
+If you want to contribute directly to coding the mod, here's the github :
+https://github.com/Champignakx/MoreMaps
+
+[b]Credits:[/b]Many thanks to [O30C] NCrawler for adding maps.
