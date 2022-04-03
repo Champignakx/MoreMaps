@@ -331,6 +331,13 @@ option MoreMaps.MilitaryAirportMap
 	translation = MoreMaps_MilitaryAirportMap,
 }
 
+option MoreMaps.CoryerdonMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CoryerdonMap,
+}
 
 
 

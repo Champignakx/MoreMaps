@@ -846,6 +846,17 @@ local function initMapReveals()
 		mapAPI:setBoundsInSquares(6300, 10200, 6899, 10499)
 		MapUtils.overlayPaper(mapUI)
 	end
+	
+	-- Coryerdon
+	LootMaps.Init.CoryerdonMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/coryerdon')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(7200, 5700, 9899, 7199)
+		overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	
 	-- Militaryairport

@@ -773,6 +773,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item CoryerdonMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Coryerdon Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           CoryerdonMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item WestPointExpansionMap
     {

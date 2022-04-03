@@ -98,6 +98,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_BlueberryMap_tooltip="West of Rosewood, after Grapeseed",
 	Sandbox_MoreMaps_GreenleafMap="Greenleaf Map",
 	Sandbox_MoreMaps_GreenleafMap_tooltip="North West of Rosewood",
+	Sandbox_MoreMaps_CoryerdonMap = "Coryerdon Map",
+	Sandbox_MoreMaps_CoryerdonMap_tooltip = "North of West Point, on the other side of the river",
 
 	Sandbox_MoreMaps_WestPointExpansionMap = "West Point Expansion Map",
 	Sandbox_MoreMaps_GlenportMap = "Glenport Map",
