@@ -1022,6 +1022,52 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
+		if SandboxVars.MoreMaps.MarchRidgeExpansionMap and getActivatedMods():contains("MRE") then
+            forageDefs["MarchRidgeExpansionMap"] = {
+                type = "Base.MarchRidgeExpansionMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
+		if SandboxVars.MoreMaps.CONResearchMap and getActivatedMods():contains("CONRTF") then
+            forageDefs["CONResearchMap"] = {
+                type = "Base.CONResearchMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
         if SandboxVars.MoreMaps.RosewoodExpansionMap and getActivatedMods():contains("pz_rosewoodexp_map") then
             forageDefs["RosewoodExpansionMap"] = {
                 type = "Base.RosewoodExpansionMap",
@@ -1183,6 +1229,29 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
+		if SandboxVars.MoreMaps.WestPointFireDepartmentMap and getActivatedMods():contains("West Point Fire Department") then
+            forageDefs["WestPointFireDepartmentMap"] = {
+                type = "Base.WestPointFireDepartmentMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
         if SandboxVars.MoreMaps.WestPointSouthTrailerParkMap and getActivatedMods():contains("WestPointTrailerParkAndVhsStore") then
             forageDefs["WestPointSouthTrailerParkMap"] = {
                 type = "Base.WestPointSouthTrailerParkMap",
@@ -1320,6 +1389,29 @@ local function initForageableMaps()
             };
             forageDefs["RavenCreekPortFacilitiesMap"] = {
                 type = "Base.RavenCreekPortFacilitiesMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
+		if SandboxVars.MoreMaps.GreenleafMap and getActivatedMods():contains("Greenleaf") then
+            forageDefs["GreenleafMap"] = {
+                type = "Base.GreenleafMap",
                 skill = 4,
                 xp = 50,
                 categories = { "Junk" },

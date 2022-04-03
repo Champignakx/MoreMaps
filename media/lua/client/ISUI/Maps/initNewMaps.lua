@@ -534,6 +534,28 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
+	
+	--  MarchRidgeExpansion map,
+	LootMaps.Init.MarchRidgeExpansionMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/MREX')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9600, 12600, 9899, 12899)
+		--overlayPNG(mapUI, 9601, 12601, 0.10, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
+	--  C.O.N. Research & Testing Facitity map,
+	LootMaps.Init.CONResearchMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/CONRTF')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9300, 12600, 9599, 12899)
+		--overlayPNG(mapUI, 9301, 12601, 0.25, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	--  RosewoodExpansion map,
 	LootMaps.Init.RosewoodExpansionMap = function(mapUI)
@@ -599,6 +621,17 @@ local function initMapReveals()
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
 
+	--  West Point Fire Department Map,
+	LootMaps.Init.WestPointFireDepartmentMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/West Point Fire Department')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(11100, 6900, 11399, 7199)
+		--overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
 	--  West Point South Trailer Park Map,
 	LootMaps.Init.WestPointSouthTrailerParkMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
@@ -801,6 +834,16 @@ local function initMapReveals()
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(8700, 9600, 9500, 10500)
 		overlayPNG(mapUI, 8700, 10150, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
+	-- Greenleaf
+	LootMaps.Init.GreenleafMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Greenleaf')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6300, 10200, 6899, 10499)
 		MapUtils.overlayPaper(mapUI)
 	end
 

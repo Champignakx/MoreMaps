@@ -219,6 +219,30 @@ option MoreMaps.RosewoodExpansionMap
 	translation = MoreMaps_RosewoodExpansionMap,
 }
 
+option MoreMaps.MarchRidgeExpansionMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MarchRidgeExpansionMap,
+}
+
+option MoreMaps.CONResearchMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CONResearchMap,
+}
+
+option MoreMaps.GreenleafMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_GreenleafMap,
+}
+
 option MoreMaps.LittleTownshipMap
 {
 	type = boolean,
@@ -266,6 +290,13 @@ option MoreMaps.BlueberryMap
 	translation = MoreMaps_BlueberryMap,
 }
 
+option MoreMaps.WestPointFireDepartmentMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WestPointFireDepartmentMap,
+}
 
 option MoreMaps.WestPointSouthTrailerParkMap
 {
