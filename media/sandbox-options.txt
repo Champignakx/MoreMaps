@@ -346,6 +346,13 @@ option MoreMaps.EdsAutoSalvageMap
 	page = MoreMaps,
 	translation = MoreMaps_EdsAutoSalvageMap,
 }
+option MoreMaps.OldParkTownMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_OldParkTownMap,
+}
 
 
 

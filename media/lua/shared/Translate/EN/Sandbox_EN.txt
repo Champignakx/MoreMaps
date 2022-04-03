@@ -102,6 +102,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_CoryerdonMap_tooltip = "North of West Point, on the other side of the river",
 	Sandbox_MoreMaps_EdsAutoSalvageMap = "Ed's Auto Salvage Map",
 	Sandbox_MoreMaps_EdsAutoSalvageMap_tooltip = "East of Pony Romo",
+	Sandbox_MoreMaps_OldParkTownMap = "OldPark Town Map",
+	Sandbox_MoreMaps_OldParkTownMap_tooltip = "South of Ed's Auto Salvage",
 
 	Sandbox_MoreMaps_WestPointExpansionMap = "West Point Expansion Map",
 	Sandbox_MoreMaps_GlenportMap = "Glenport Map",

@@ -869,6 +869,16 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
+	-- OldPark Town
+	LootMaps.Init.OldParkTownMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/ParkingLot')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(8700, 8400, 8999, 8699)
+		--overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 	
 	-- Militaryairport
 	LootMaps.Init.MilitaryAirportMap = function(mapUI)

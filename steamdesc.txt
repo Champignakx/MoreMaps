@@ -58,6 +58,7 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 02/04/2022][/i] Greenleaf
 [*] [i][Added 03/04/2022][/i] Coryerdon
 [*] [i][Added 03/04/2022][/i] Ed's Auto Salvage
+[*] [i][Added 03/04/2022][/i] OldPark Town
 [/list]
 [u][b]Exceptions:[/b][/u]
 [list]

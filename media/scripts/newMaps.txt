@@ -797,6 +797,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item OldParkTownMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    OldPark Town Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           OldParkTownMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item WestPointExpansionMap
     {
