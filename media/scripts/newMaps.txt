@@ -785,6 +785,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item EdsAutoSalvageMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Ed's Auto Salvage Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           EdsAutoSalvageMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item WestPointExpansionMap
     {

@@ -339,6 +339,13 @@ option MoreMaps.CoryerdonMap
 	translation = MoreMaps_CoryerdonMap,
 }
 
+option MoreMaps.EdsAutoSalvageMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_EdsAutoSalvageMap,
+}
 
 
 
