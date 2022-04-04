@@ -353,6 +353,13 @@ option MoreMaps.OldParkTownMap
 	page = MoreMaps,
 	translation = MoreMaps_OldParkTownMap,
 }
+option MoreMaps.MuldraughFireDepartmentMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MuldraughFireDepartmentMap,
+}
 
 
 

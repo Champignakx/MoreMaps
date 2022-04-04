@@ -59,6 +59,7 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 03/04/2022][/i] Coryerdon
 [*] [i][Added 03/04/2022][/i] Ed's Auto Salvage
 [*] [i][Added 03/04/2022][/i] OldPark Town
+[*] [i][Added 03/04/2022][/i] Muldraugh Fire Department
 [/list]
 [u][b]Exceptions:[/b][/u]
 [list]

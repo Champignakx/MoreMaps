@@ -809,6 +809,18 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+	
+	item MuldraughFireDepartmentMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Muldraugh's Fire Department Map,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           MuldraughFireDepartmentMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
 
     item WestPointExpansionMap
     {

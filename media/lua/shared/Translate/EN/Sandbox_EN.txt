@@ -104,6 +104,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_EdsAutoSalvageMap_tooltip = "East of Pony Romo",
 	Sandbox_MoreMaps_OldParkTownMap = "OldPark Town Map",
 	Sandbox_MoreMaps_OldParkTownMap_tooltip = "South of Ed's Auto Salvage",
+	Sandbox_MoreMaps_MuldraughFireDepartmentMap = "Muldraugh Fire Department Map",
+	Sandbox_MoreMaps_MuldraughFireDepartmentMap_tooltip = "South of Muldraugh",
 
 	Sandbox_MoreMaps_WestPointExpansionMap = "West Point Expansion Map",
 	Sandbox_MoreMaps_GlenportMap = "Glenport Map",
