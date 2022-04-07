@@ -1395,23 +1395,23 @@ local function initMapDistributions()
 
 	if SandboxVars.MoreMaps.OldParkTownMap and getActivatedMods():contains("ParkingLot") then
         -- OldPark Town Map
-        addMapToTownZombies("Base.OldParkTownMap", baseChanceZombies);
+        addMapToTownZombies("Base.OldParkTownMap", baseChanceZombies/2);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.OldParkTownMap");
-        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldParkTownMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldParkTownMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
         table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.OldParkTownMap");
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.OldParkTownMap");
-        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
         table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.OldParkTownMap");
-        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.OldParkTownMap");
-        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.OldParkTownMap");
-        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
 	
 
