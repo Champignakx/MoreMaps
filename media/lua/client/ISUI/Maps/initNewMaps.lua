@@ -858,16 +858,6 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 	
-	-- Ed's Auto Salvage
-	LootMaps.Init.EdsAutoSalvageMap = function(mapUI)
-		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/EdsAutoSalvage')
-		MapUtils.initDefaultStyleV1(mapUI)
-		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(8700, 8400, 8999, 8699)
-		--overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
-		MapUtils.overlayPaper(mapUI)
-	end
 
 	-- OldPark Town
 	LootMaps.Init.OldParkTownMap = function(mapUI)
@@ -880,16 +870,7 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 	
-	-- Muldraugh Fire Department
-	LootMaps.Init.MuldraughFireDepartmentMap = function(mapUI)
-		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh Fire Department')
-		MapUtils.initDefaultStyleV1(mapUI)
-		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(10500, 10500, 10799, 10799)
-		--overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
-		MapUtils.overlayPaper(mapUI)
-	end
+	
 	
 	-- Militaryairport
 	LootMaps.Init.MilitaryAirportMap = function(mapUI)
