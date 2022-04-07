@@ -1170,18 +1170,13 @@ local function initMapReveals()
 	-- FK - Quitman Map 2
 	-- FK - Fort Knox Map 2
 
-	-- Fort redstone
-	--(5400, 11100, 5700; 12000)
+	-- Fort redstone	
 	LootMaps.Init.FortRedstoneMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_FortRedstone_SP") then
-			MapUtils.initDirectoryMapData(mapUI, 'media/maps/FortRedstone_map')
-		else 
-			MapUtils.initDirectoryMapData(mapUI, 'media/maps/FortRedstone')
-		end
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/FortRedstone')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(5400, 11100, 5700, 12000)
+		mapAPI:setBoundsInSquares(5400, 11100, 5999, 12299)
 		MapUtils.overlayPaper(mapUI)
 	end
 

@@ -49,7 +49,6 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 21/02/2022][/i] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] 3x Slocan lake maps ([b]REQUIRES[/b ] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] 2x Fort Knox linked to Eerie Country ([b]REQUIRES a mod, see [b]WARNING[/b] section)
-[*] [i][Added 21/02/2022][/i] Fort Redstone ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] West Point Expansion ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 01/04/2022][/i] West Point Fire Department (added by NCrawler)
@@ -58,6 +57,7 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 02/04/2022][/i] Greenleaf (added by NCrawler)
 [*] [i][Added 03/04/2022][/i] Coryerdon (added by NCrawler)
 [*] [i][Added 03/04/2022][/i] OldPark Town (added by NCrawler)
+[*] [i][Added 07/04/2022][/i] Fort Redstone (updated by NCrawler) No longer requires external mod
 [/list]
 [u][b]Exceptions:[/b][/u]
 [list]
