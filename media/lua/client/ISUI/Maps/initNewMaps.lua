@@ -899,7 +899,7 @@ local function initMapReveals()
 	-- West Point Expansion Map
 	LootMaps.Init.WestPointExpansionMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_WestPointExpansion_SP") then
+		if getActivatedMods():contains("InGameMaps_WestPointExpansion") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/west_point_expansion_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/west_point_expansion')
@@ -915,7 +915,7 @@ local function initMapReveals()
 	-- Glenport Map
 	LootMaps.Init.GlenportMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_Glenport_SP") then
+		if getActivatedMods():contains("InGameMaps_Glenport") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Glenport_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Glenport')
@@ -932,7 +932,7 @@ local function initMapReveals()
 	-- EC - Customs border zone Map (10500, 13500, 10800, 14000)
 	LootMaps.Init.EC_CustomsBorderZoneMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -945,7 +945,7 @@ local function initMapReveals()
 	-- EC - Centralia Map (11300, 13500, 12100, 14400)
 	LootMaps.Init.EC_CentraliaMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -958,7 +958,7 @@ local function initMapReveals()
 	-- EC - TrainStationMap (11400, 14700, 12100, 15300)
 	LootMaps.Init.EC_TrainStationMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -971,7 +971,7 @@ local function initMapReveals()
 	-- EC - DarkFallsMap (10800, 15300, 11400, 15900)
 	LootMaps.Init.EC_DarkFallsMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -984,7 +984,7 @@ local function initMapReveals()
 	-- EC - HiddenSwampsMap (11400, 15300, 12300, 16200)
 	LootMaps.Init.EC_HiddenSwampsMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -997,7 +997,7 @@ local function initMapReveals()
 	-- EC - SanDitoAirportMap (10800, 16200, 11700, 16600)
 	LootMaps.Init.EC_SanDitoAirportMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1010,7 +1010,7 @@ local function initMapReveals()
 	-- EC - LakeHeisenbergMap (10800, 16600, 11500, 17200)
 	LootMaps.Init.EC_LakeHeisenbergMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1023,7 +1023,7 @@ local function initMapReveals()
 	-- EC - ErenCityMap (11700 ,17000, 12300, 17500)
 	LootMaps.Init.EC_ErenCityMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1036,7 +1036,7 @@ local function initMapReveals()
 	-- EC - IrvingtonMap (11100, 17700, 11700, 18300)
 	LootMaps.Init.EC_IrvingtonMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1049,7 +1049,7 @@ local function initMapReveals()
 	-- EC - RuralZoneMap (7500, 16500, 9500, 18300)
 	LootMaps.Init.EC_RuralZoneMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1062,7 +1062,7 @@ local function initMapReveals()
 	-- Complete Eerie Country map (7500, 13500, 12300, 17700)
 	LootMaps.Init.EC_CompleteMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_EerieCountry_SP") then
+		if getActivatedMods():contains("InGameMaps_EerieCountry") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Eerie Country')
@@ -1078,7 +1078,7 @@ local function initMapReveals()
 	--(2400, 16000, 4400, 17700)
 	LootMaps.Init.SL_NewDenverMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake_SP") then
+		if getActivatedMods():contains("InGameMaps_SlocanLake") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/NewDenver_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/NewDenver')
@@ -1092,7 +1092,7 @@ local function initMapReveals()
 	--(600, 12800, 1800, 13900)
 	LootMaps.Init.SL_RoseberyMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake_SP") then
+		if getActivatedMods():contains("InGameMaps_SlocanLake") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery')
@@ -1106,7 +1106,7 @@ local function initMapReveals()
 	--(3400, 19700, 4600, 20900)
 	LootMaps.Init.SL_SilvertonMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake_SP") then
+		if getActivatedMods():contains("InGameMaps_SlocanLake") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Silverton')
@@ -1122,7 +1122,7 @@ local function initMapReveals()
 	-- (12900, 13200, 13500, 14400)
 	LootMaps.Init.FK_QuitmanMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_FortKnoxLinked_SP") then
+		if getActivatedMods():contains("InGameMaps_FortKnoxLinked") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Knox linked to Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Knox linked to Eerie Country')
@@ -1136,7 +1136,7 @@ local function initMapReveals()
 	-- (13300, 14000, 15300, 17400)
 	LootMaps.Init.FK_FortKnoxMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_FortKnoxLinked_SP") then
+		if getActivatedMods():contains("InGameMaps_FortKnoxLinked") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Knox linked to Eerie Country_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Knox linked to Eerie Country')
@@ -1155,7 +1155,7 @@ local function initMapReveals()
 	--(5400, 11100, 5700; 12000)
 	LootMaps.Init.FortRedstoneMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_FortRedstone_SP") then
+		if getActivatedMods():contains("InGameMaps_FortRedstone") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/FortRedstone_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/FortRedstone')
@@ -1171,8 +1171,8 @@ local function initMapReveals()
 	-- add billionaire safehouse
 	-- add Irvington, KY
 	-- add Base Kraz
-	-- add C.O.N. Research & testing facility
 	-- add Firecamp, KY
+	
 end 
 
 
