@@ -1354,7 +1354,7 @@ local function initMapDistributions()
     end
 	if SandboxVars.MoreMaps.GreenleafMap and getActivatedMods():contains("Greenleaf") then
         -- Greenleaf Map
-        addMapToTownZombies("Base.BlueberryMap", baseChanceZombies);
+        addMapToTownZombies("Base.GreenleafMap", baseChanceZombies);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.GreenleafMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.GreenleafMap");
@@ -1371,6 +1371,87 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.GreenleafMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+	if SandboxVars.MoreMaps.CoryerdonMap and getActivatedMods():contains("coryerdon") then
+        -- Coryerdon Map
+        addMapToTownZombies("Base.CoryerdonMap", baseChanceZombies);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.CoryerdonMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CoryerdonMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CoryerdonMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.CoryerdonMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.CoryerdonMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.CoryerdonMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.CoryerdonMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.CoryerdonMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+	if SandboxVars.MoreMaps.EdsAutoSalvageMap and getActivatedMods():contains("EdsAutoSalvage") then
+        -- Ed's Auto Salvage Map
+        addMapToTownZombies("Base.EdsAutoSalvageMap", baseChanceZombies);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.EdsAutoSalvageMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.EdsAutoSalvageMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.EdsAutoSalvageMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.EdsAutoSalvageMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.EdsAutoSalvageMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.EdsAutoSalvageMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.EdsAutoSalvageMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.EdsAutoSalvageMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+	if SandboxVars.MoreMaps.OldParkTownMap and getActivatedMods():contains("ParkingLot") then
+        -- OldPark Town Map
+        addMapToTownZombies("Base.OldParkTownMap", baseChanceZombies);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.OldParkTownMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldParkTownMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldParkTownMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.OldParkTownMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.OldParkTownMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.OldParkTownMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.OldParkTownMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.OldParkTownMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+	if SandboxVars.MoreMaps.MuldraughFireDepartmentMap and getActivatedMods():contains("Muldraugh Fire Department") then
+        -- MuldraughFireDepartmentMap
+        addMapToTownZombies("Base.MuldraughFireDepartmentMap", baseChanceZombies/4);
+        addMapToCountrySideZombies("Base.MuldraughFireDepartmentMap", baseChanceZombies/4);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MuldraughFireDepartmentMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
 
 

@@ -331,7 +331,35 @@ option MoreMaps.MilitaryAirportMap
 	translation = MoreMaps_MilitaryAirportMap,
 }
 
+option MoreMaps.CoryerdonMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_CoryerdonMap,
+}
 
+option MoreMaps.EdsAutoSalvageMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_EdsAutoSalvageMap,
+}
+option MoreMaps.OldParkTownMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_OldParkTownMap,
+}
+option MoreMaps.MuldraughFireDepartmentMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MuldraughFireDepartmentMap,
+}
 
 
 
