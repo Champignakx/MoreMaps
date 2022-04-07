@@ -1010,36 +1010,36 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/5);
     end
 	if SandboxVars.MoreMaps.MarchRidgeExpansionMap and getActivatedMods():contains("MRE") then
-        
-        addMapToTownZombies("Base.MarchRidgeExpansionMap", baseChanceZombies);
+        addMapToTownZombies("Base.MarchRidgeExpansionMap", baseChanceZombies/3);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/3);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/3);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/3);
         table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/3);
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.MarchRidgeExpansionMap");
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
         table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/3);
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/3);
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MarchRidgeExpansionMap");
-        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/3);
     end
 	if SandboxVars.MoreMaps.CONResearchMap and getActivatedMods():contains("CONRTF") then
         
-        addMapToTownZombies("Base.CONResearchMap", baseChanceZombies);
+        addMapToTownZombies("Base.CONResearchMap", baseChanceZombies/10);
+        addMapToMilitaryZombies("Base.CONResearchMap", baseChanceZombies/2);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.CONResearchMap");
-        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CONResearchMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CONResearchMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.CONResearchMap");
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CONResearchMap");
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.CONResearchMap");
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        -- table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.CONResearchMap");
+        -- table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.CONResearchMap");
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
         table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.CONResearchMap");
@@ -1196,10 +1196,10 @@ local function initMapDistributions()
         addMapToCountrySideZombies("Base.WestPointFireDepartmentMap", baseChanceZombies/4);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.WestPointFireDepartmentMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WestPointFireDepartmentMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WestPointFireDepartmentMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WestPointFireDepartmentMap");
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WestPointFireDepartmentMap");
+        -- table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
         table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.WestPointFireDepartmentMap");
         table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
         table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.WestPointFireDepartmentMap");
