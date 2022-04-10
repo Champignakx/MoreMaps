@@ -1453,6 +1453,13 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MuldraughFireDepartmentMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
+	if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
+		addMapToMilitaryZombies("Base.FortRedstoneMap", baseChanceZombies);
+		table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.FortRedstoneMap");
+		table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+		table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.FortRedstoneMap");
+		table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+	end
 
 
     -- MAPS REQUIRING THE MOD "INGAME MAPS TO WORK"
@@ -1765,17 +1772,7 @@ local function initMapDistributions()
             table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.FK_QuitmanMap");
             table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/3);
 
-        end
-
-        if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
-            
-            addMapToMilitaryZombies("Base.FortRedstoneMap", baseChanceZombies);
-            table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.FortRedstoneMap");
-            table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
-            table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.FortRedstoneMap");
-            table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
-
-        end
+        end       
 
     end
 
