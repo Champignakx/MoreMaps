@@ -865,7 +865,7 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/ParkingLot')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(8700, 8700, 8999, 8999)
+		mapAPI:setBoundsInSquares(8700, 8700, 9299, 8999)
 		--overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
