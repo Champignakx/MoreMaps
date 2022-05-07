@@ -4,7 +4,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Complete Map of Kentucky,
+        DisplayName			=		    Map of Kentucky,
         Icon				=			Map,
         Weight				=			0.2,
         Map                 =           KentuckyMap,
@@ -16,7 +16,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Ekron Map,
+        DisplayName			=		    Map of Ekron,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EkronMap,
@@ -28,7 +28,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Dixie Map,
+        DisplayName			=		    Map of Dixie,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           DixieMap,
@@ -40,7 +40,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Scenic Grove Map,
+        DisplayName			=		    Map of Scenic Grove,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           ScenicGroveMap,
@@ -52,7 +52,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Riverside's Country Club Map,
+        DisplayName			=		    Map of Riverside's Country Club,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           CountryClubMap,
@@ -64,7 +64,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Pony Roam-O Map,
+        DisplayName			=		    Map of Pony Roam-O,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           PonyRoamOMap,
@@ -76,7 +76,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		   Eastern Railyard Map,
+        DisplayName			=		    Map of Muldraugh's Railyard,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           MuldraughRailyardMap,
@@ -88,7 +88,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Complete Map of Louisville,
+        DisplayName			=		    Map of Louisville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleMap,
@@ -100,7 +100,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Iroquois Park,
+        DisplayName			=		    Map of Louisville: Iroquois Park,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleIroquoisMap,
@@ -112,7 +112,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Audubon,
+        DisplayName			=		    Map of Louisville: Audubon,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleAudubonMap,
@@ -124,7 +124,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Central Louisville,
+        DisplayName			=		    Map of Louisville: Central Louisville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleCentralMap,
@@ -136,7 +136,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Evergreen Hill,
+        DisplayName			=		    Map of Louisville: Evergreen Hill,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleEvergreenHillMap,
@@ -148,7 +148,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Old Louisville,
+        DisplayName			=		    Map of Louisville: Old Louisville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleOldMap,
@@ -160,7 +160,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Phoenix Hill,
+        DisplayName			=		    Map of Louisville: Phoenix Hill,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvillePhoenixHillMap,
@@ -173,7 +173,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Fenced Neiborhood,
+        DisplayName			=		    Map of Louisville: Fenced Neiborhood,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleGatedCommunityMap,
@@ -185,7 +185,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Northern Commercials,
+        DisplayName			=		    Map of Louisville: Northern Commercials,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleNorthCommercialDistrictMap,
@@ -198,7 +198,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Portland,
+        DisplayName			=		    Map of Louisville: Portland,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvillePortlandMap,
@@ -211,7 +211,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: LS University,
+        DisplayName			=		    Map of Louisville: LS University,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleLSUMap,
@@ -224,7 +224,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: South Louisville,
+        DisplayName			=		    Map of Louisville: South Louisville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleSouthMap,
@@ -236,7 +236,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Leafhill Heights,
+        DisplayName			=		    Map of Louisville: Leafhill Heights,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleLeafhillHeightsMap,
@@ -248,7 +248,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Chapelmount Downs,
+        DisplayName			=		    Map of Louisville: Chapelmount Downs,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleChapelmountDownsMap,
@@ -260,7 +260,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: Scarlet Oak,
+        DisplayName			=		    Map of Louisville: Scarlet Oak,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleScarletOakMap,
@@ -273,7 +273,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Louisville Map: East Louisville,
+        DisplayName			=		    Map of Louisville: East Louisville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LouisvilleEastMap,
@@ -285,7 +285,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Valley Station Map,
+        DisplayName			=		    Map of Valley Station,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           ValleyStationMap,
@@ -297,7 +297,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Valley Station Map: Mall Area,
+        DisplayName			=		    Map of Valley Station: Mall Area,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           ValleyStationMallAreaMap,
@@ -308,7 +308,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Valley Station's Summer Camp Map,
+        DisplayName			=		    Map of Valley Station's Summer Camp,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EasternSummerCampMap,
@@ -332,7 +332,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Western Farmland Map,
+        DisplayName			=		    Map of Western Farmland,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           SmallTownWestMap,
@@ -344,7 +344,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Warehouse Complex Map,
+        DisplayName			=		    Map of a Warehouse Complex,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           MuldraughWarehouseComplexMap,
@@ -410,7 +410,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Camp Grounds Location,
+        DisplayName			=		    Map of Camping Grounds,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           CampGroundsLocation,
@@ -421,7 +421,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Abandoned Factory Map,
+        DisplayName			=		    Map of an Abandoned Factory,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           AbandonedFactoryMap,
@@ -434,7 +434,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Grapeseed Map,
+        DisplayName			=		    Map of Grapeseed,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           GrapeseedMap,
@@ -446,7 +446,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Blackwood Map,
+        DisplayName			=		    Map of Blackwood,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           BlackwoodMap,
@@ -458,7 +458,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Pitstop Map,
+        DisplayName			=		    Map of Pitstop,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           PitstopMap,
@@ -470,7 +470,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Over The River Map,
+        DisplayName			=		    Map of Over The River,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           OverTheRiverMap,
@@ -482,7 +482,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Lake Ivy Township Map,
+        DisplayName			=		    Map of Lake Ivy Township,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LakeIvyMap2,
@@ -494,7 +494,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Weather Station RIVS-500 Location,
+        DisplayName			=		    Station RIVS-500 Location,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           StationRIVS500Location,
@@ -505,7 +505,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Weather Station WEST-P88 Location,
+        DisplayName			=		    Station WEST-P88 Location,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           StationWESTP88Location,
@@ -516,7 +516,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Weather Station ROSE-099 Location,
+        DisplayName			=		    Station ROSE-099 Location,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           StationROSE099Location,
@@ -527,7 +527,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Weather Station MULD-650 Location,
+        DisplayName			=		    Station MULD-650 Location,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           StationMULD650Location,
@@ -550,7 +550,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    March Ridge Expansion Map,
+        DisplayName			=		    Map of March Ridge Expansion,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           MarchRidgeExpansionMap,
@@ -562,7 +562,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    C.O.N. Research & Testing Facility Map,
+        DisplayName			=		    Map of C.O.N. Research & Testing Facility,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           CONResearchMap,
@@ -574,7 +574,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Rosewood North Expansion Map,
+        DisplayName			=		    Map of Rosewood North Expansion,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           RosewoodExpansionMap,
@@ -586,7 +586,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Little Township Map,
+        DisplayName			=		    Map of Little Township,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LittleTownshipMap,
@@ -598,7 +598,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Linden Map,
+        DisplayName			=		    Map of Linden,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           LindenMap,
@@ -610,7 +610,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    West Point's Fire Department Map,
+        DisplayName			=		    Map of West Point's Fire Department,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           WestPointFireDepartmentMap,
@@ -622,7 +622,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    West Point's South Trailer Park Map,
+        DisplayName			=		    Map of West Point's South Trailer Park,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           WestPointSouthTrailerParkMap,
@@ -634,7 +634,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Kingsmouth Map,
+        DisplayName			=		    Map of Kingsmouth,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           KingsmouthMap2,
@@ -646,7 +646,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Complete Map of Raven Creek,
+        DisplayName			=		    Map of Raven Creek,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           RavenCreekMap,
@@ -658,7 +658,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Raven Creek's Center Map,
+        DisplayName			=		    Map of Raven Creek's Center,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           NorthRavenCreekMap,
@@ -670,7 +670,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Raven Creek's Suburbs Map,
+        DisplayName			=		    Map of Raven Creek's Suburbs,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           SouthEastRavenCreekMap,
@@ -682,7 +682,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Raven Creek's Port Facilities Map,
+        DisplayName			=		    Map of Raven Creek's Port Facilities,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           RavenCreekPortFacilitiesMap,
@@ -706,7 +706,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Refordville Map,
+        DisplayName			=		    Map of Refordville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           RefordvilleMap,
@@ -718,7 +718,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Chinatown Map,
+        DisplayName			=		    Map of Chinatown,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           ChinatownMap,
@@ -730,7 +730,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Military Airfield Map,
+        DisplayName			=		    Map of Military Airfield,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           MilitaryAirportMap,
@@ -742,7 +742,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Chernaville Map,
+        DisplayName			=		    Map of Chernaville,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           ChernavilleMap,
@@ -754,7 +754,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Blueberry Map,
+        DisplayName			=		    Map of Blueberry,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           BlueberryMap,
@@ -766,7 +766,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Greenleaf Map,
+        DisplayName			=		    Map of Greenleaf,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           GreenleafMap,
@@ -778,7 +778,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Coryerdon Map,
+        DisplayName			=		    Map of Coryerdon,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           CoryerdonMap,
@@ -792,7 +792,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    OldPark Town Map,
+        DisplayName			=		    Map of OldPark Town,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           OldParkTownMap,
@@ -806,7 +806,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    West Point - Salt Ridge Map,
+        DisplayName			=		    Map of Salt Ridge,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           WestPointExpansionMap,
@@ -818,7 +818,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Glenport Map,
+        DisplayName			=		    Map of Glenport,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           GlenportMap,
@@ -831,7 +831,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Customs Border Zone Map,
+        DisplayName			=		    Map of EC - Customs Border Zone,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_CustomsBorderZoneMap,
@@ -842,7 +842,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Centralia Map,
+        DisplayName			=		    Map of EC - Centralia,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_CentraliaMap,
@@ -853,7 +853,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Train Station Map,
+        DisplayName			=		    Map of EC - Train Station,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_TrainStationMap,
@@ -864,7 +864,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Dark Falls Map,
+        DisplayName			=		    Map of EC - Dark Falls,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_DarkFallsMap,
@@ -875,7 +875,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Hidden Swamps Map,
+        DisplayName			=		    Map of EC - Hidden Swamps,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_HiddenSwampsMap,
@@ -886,7 +886,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - San Dito Airport Map,
+        DisplayName			=		    Map of EC - San Dito Airport,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_SanDitoAirportMap,
@@ -897,7 +897,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Lake Heisenberg Map,
+        DisplayName			=		    Map of EC - Lake Heisenberg,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_LakeHeisenbergMap,
@@ -908,7 +908,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Eren City Map,
+        DisplayName			=		    Map of EC - Eren City,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_ErenCityMap,
@@ -919,7 +919,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Irvington Map,
+        DisplayName			=		    Map of EC - Irvington,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_IrvingtonMap,
@@ -930,7 +930,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    EC - Rural Zone Map,
+        DisplayName			=		    Map of EC - Rural Zone,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_RuralZoneMap,
@@ -942,7 +942,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Complete Eerie Country Map,
+        DisplayName			=		    Map of  Eerie Country,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           EC_CompleteMap,
@@ -958,7 +958,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    New Denver Map,
+        DisplayName			=		    Map of New Denver,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           SL_NewDenverMap,
@@ -969,7 +969,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Rosebery Map,
+        DisplayName			=		    Map of Rosebery,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           SL_RoseberyMap,
@@ -980,7 +980,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Silverton Map,
+        DisplayName			=		    Map of Silverton,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           SL_SilvertonMap,
@@ -991,7 +991,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Quitman Map,
+        DisplayName			=		    Map of Quitman,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           FK_QuitmanMap,
@@ -1002,7 +1002,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Fort Knox Map,
+        DisplayName			=		    Map of Fort Knox,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           FK_FortKnoxMap,
@@ -1013,7 +1013,7 @@ module Base
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Fort Redstone Map,
+        DisplayName			=		    Map of Fort Redstone,
         Icon				=			Map,
         Weight				=			0.1,
         Map                 =           FortRedstoneMap,
