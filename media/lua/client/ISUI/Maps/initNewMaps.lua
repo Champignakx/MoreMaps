@@ -1078,7 +1078,7 @@ local function initMapReveals()
 	--(2400, 16000, 4400, 17700)
 	LootMaps.Init.SL_NewDenverMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake") then
+		if getActivatedMods():contains("InGameMaps_SlocanLake") or getActivatedMods():contains("RavenCreekEerieCompatibleSlocanLakeIngameMap") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/NewDenver_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/NewDenver')
@@ -1092,7 +1092,7 @@ local function initMapReveals()
 	--(600, 12800, 1800, 13900)
 	LootMaps.Init.SL_RoseberyMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake") then
+		if getActivatedMods():contains("InGameMaps_SlocanLake") or getActivatedMods():contains("RavenCreekEerieCompatibleSlocanLakeIngameMap") then
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery')
@@ -1106,8 +1106,8 @@ local function initMapReveals()
 	--(3400, 19700, 4600, 20900)
 	LootMaps.Init.SL_SilvertonMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		if getActivatedMods():contains("InGameMaps_SlocanLake") then
-			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Rosebery_map')
+		if getActivatedMods():contains("InGameMaps_SlocanLake") or getActivatedMods():contains("RavenCreekEerieCompatibleSlocanLakeIngameMap") then
+			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Silverton_map')
 		else 
 			MapUtils.initDirectoryMapData(mapUI, 'media/maps/Silverton')
 		end
