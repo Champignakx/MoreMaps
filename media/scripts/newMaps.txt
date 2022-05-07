@@ -786,17 +786,7 @@ module Base
         WorldStaticModel = Map,
     }
 	
-	item EdsAutoSalvageMap
-    {
-        DisplayCategory = Cartography,
-        Type				=			Map,
-        DisplayName			=		    Ed's Auto Salvage Map,
-        Icon				=			Map,
-        Weight				=			0.1,
-        Map                 =           EdsAutoSalvageMap,
-        SurvivalGear = TRUE,
-        WorldStaticModel = Map,
-    }
+
 	
 	item OldParkTownMap
     {
@@ -810,17 +800,7 @@ module Base
         WorldStaticModel = Map,
     }
 	
-	item MuldraughFireDepartmentMap
-    {
-        DisplayCategory = Cartography,
-        Type				=			Map,
-        DisplayName			=		    Muldraugh's Fire Department Map,
-        Icon				=			Map,
-        Weight				=			0.1,
-        Map                 =           MuldraughFireDepartmentMap,
-        SurvivalGear = TRUE,
-        WorldStaticModel = Map,
-    }
+
 
     item WestPointExpansionMap
     {

@@ -52,12 +52,13 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] [i][Added 21/02/2022][/i] West Point Expansion ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 21/02/2022][/i] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] [i][Added 01/04/2022][/i] West Point Fire Department (added by NCrawler)
-[*] {i}{added 01/04/2022][/i] March Ridge Expansion (added by NCrawler)
+[*] [i][added 01/04/2022][/i] March Ridge Expansion (added by NCrawler)
 [*] [i][Added 02/04/2022][/i] C.O.N. Research & Testing Facility (added by NCrawler)
 [*] [i][Added 02/04/2022][/i] Greenleaf (added by NCrawler)
 [*] [i][Added 03/04/2022][/i] Coryerdon (added by NCrawler)
 [*] [i][Added 03/04/2022][/i] OldPark Town (added by NCrawler)
-[*] [i][Added 07/04/2022][/i] Fort Redstone (updated by NCrawler) No longer requires external mod
+[*] [i][Added 07/04/2022][/i] Fort Redstone (updated by NCrawler) (No longer requires external mod)
+
 [/list]
 [u][b]Exceptions:[/b][/u]
 [list]
@@ -70,9 +71,7 @@ Once they have mapped their mod, I will add the corresponding item (if they have
 [h1]WARNING : READ THIS[/h1]
 If you want to use one of these maps items:
 Eerie Country maps, Slocan Lake maps, Fort Knox linked to Eerie Country, West Point Expansion, Glenport,
-for each you will need a mod :
-[b]It seems like these mods have been taken down.[/b] So the map items of those map mods won't work anymore. I will leave the items as they are in case they are uploaded again.
-
+you will need the mod : "IngameMaps" by alree_unjammer.
 
 [h1]Where can I find these maps?[/h1]
 [list]
