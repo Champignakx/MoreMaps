@@ -1830,6 +1830,41 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.RemusMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
+    if SandboxVars.MoreMaps.TrimbleCountyMaps and getActivatedMods():contains("TrimbleCountyPowerStation") then
+        -- TrimbleCountyPowerStationMap
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TrimbleCountyPowerStationMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+
+        -- TrimbleCountyLaGrangeMap
+        addMapToTownZombies("Base.TrimbleCountyLaGrangeMap", baseChanceZombies/2);
+        addMapToCountrySideZombies("Base.TrimbleCountyLaGrangeMap", baseChanceZombies/2);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TrimbleCountyLaGrangeMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+    end
 
 
 end

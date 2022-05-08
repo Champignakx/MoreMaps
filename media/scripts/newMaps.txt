@@ -1076,6 +1076,28 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
+    item TrimbleCountyPowerStationMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Trimble County: power station,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   RemusMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
+    item TrimbleCountyLaGrangeMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Trimble County: La Grange,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   TrimbleCountyLaGrangeMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 
 
 }

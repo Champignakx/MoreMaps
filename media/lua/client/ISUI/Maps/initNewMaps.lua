@@ -1230,9 +1230,25 @@ local function initMapReveals()
 
 	-- Trimble County Power Station
 	-- ( 15000, 3000, 15300, 3600)
-	
+	LootMaps.Init.TrimbleCountyPowerStationMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/TrimbleCountyPowerStation')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares( 15000, 3000, 15300, 3600)
+		MapUtils.overlayPaper(mapUI)
+	end
+
 	-- Trimble County La Grange
 	-- (15600, 3000, 16400, 3550)
+	LootMaps.Init.TrimbleCountyLaGrangeMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/TrimbleCountyPowerStation')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(15600, 3000, 16400, 3550)
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- Trelai 4x4
 	--	( 6600, 6600, 7800, 7800 )

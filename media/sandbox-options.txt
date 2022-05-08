@@ -443,4 +443,12 @@ option MoreMaps.RemusMap
 	page = MoreMaps,
 	translation = MoreMaps_RemusMap,
 }
+option MoreMaps.TrimbleCountyMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_TrimbleCountyMaps,
+}
+
 
