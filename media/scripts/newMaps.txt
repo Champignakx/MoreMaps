@@ -1121,5 +1121,16 @@ module Base
         WorldStaticModel    =   Map,
     }
 
+    item EZPZCommunityCenterMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of EZPZ Community Center,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   EZPZCommunityCenterMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 
 }

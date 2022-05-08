@@ -1272,14 +1272,22 @@ local function initMapReveals()
 		mapAPI:setBoundsInSquares(15600, 3000, 16400, 3550)
 		MapUtils.overlayPaper(mapUI)
 	end
-	
-	-- TODO
+
 	-- EZPZ Community Center
 	-- (10500, 6600 , 10800, 6900)
+	LootMaps.Init.EZPZCommunityCenterMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/EZPZCenter')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(10500, 6600 , 10800, 6900)
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- Old Pine Village
 	-- (10200, 12900, 10800, 14700)
 
+	-- TODO
 	-- Firecamp, KY whent it is added
 	--
 

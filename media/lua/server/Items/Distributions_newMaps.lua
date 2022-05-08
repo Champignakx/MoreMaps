@@ -1952,6 +1952,26 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TrimbleCountyLaGrangeMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
+    if SandboxVars.MoreMaps.EZPZCommunityCenterMap and getActivatedMods():contains("EZPZCenter") then
+        -- EZPZCommunityCenterMap
+        addMapToTownZombies("Base.EZPZCommunityCenterMap", baseChanceZombies/4);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/4);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/4);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/4);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/4);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/4);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/4);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/4);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.EZPZCommunityCenterMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/4);
+    end
 
 end
 

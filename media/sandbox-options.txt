@@ -450,12 +450,12 @@ option MoreMaps.TrimbleCountyMaps
 	page = MoreMaps,
 	translation = MoreMaps_TrimbleCountyMaps,
 }
-option MoreMaps.TrelaiMap
+option MoreMaps.EZPZCommunityCenterMap
 {
 	type = boolean,
 	default = true,
 	page = MoreMaps,
-	translation = MoreMaps_TrelaiMap,
+	translation = MoreMaps_EZPZCommunityCenterMap,
 }
 
 
