@@ -1972,6 +1972,26 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.EZPZCommunityCenterMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/4);
     end
+    if SandboxVars.MoreMaps.OldPineVillageMap and getActivatedMods():contains("Old Pine Village") then
+        -- OldPineVillageMap
+        addMapToTownZombies("Base.OldPineVillageMap", baseChanceZombies/2);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.OldPineVillageMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldPineVillageMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.OldPineVillageMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.OldPineVillageMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.OldPineVillageMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.OldPineVillageMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.OldPineVillageMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.OldPineVillageMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+    end
 
 end
 

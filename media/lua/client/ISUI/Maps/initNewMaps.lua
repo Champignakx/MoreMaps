@@ -1286,6 +1286,14 @@ local function initMapReveals()
 
 	-- Old Pine Village
 	-- (10200, 12900, 10800, 14700)
+	LootMaps.Init.OldPineVillageMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Old Pine Village')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(10200, 12900, 10800, 14700)
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- TODO
 	-- Firecamp, KY whent it is added

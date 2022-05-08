@@ -458,4 +458,11 @@ option MoreMaps.EZPZCommunityCenterMap
 	translation = MoreMaps_EZPZCommunityCenterMap,
 }
 
+option MoreMaps.OldPineVillageMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_OldPineVillageMap,
+}
 

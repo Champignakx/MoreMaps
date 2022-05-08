@@ -143,4 +143,7 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_EZPZCommunityCenterMap = "Map of EZPZ Community Center (mod)",
 	Sandbox_MoreMaps_EZPZCommunityCenterMap_tooltip = "East of West Point",
 
+	Sandbox_MoreMaps_OldPineVillageMap = "Map of Old Pine Village (mod)",
+	Sandbox_MoreMaps_OldPineVillageMap_tooltip = "South of March Ridge",
+
 }
