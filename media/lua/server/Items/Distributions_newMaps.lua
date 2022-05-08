@@ -151,7 +151,7 @@ local function initMapDistributions()
     ---------- MODIFY THESE VALUES TO TWEAK LOOT DISTRIBUTIONS -------------------------------------------------------
     -------- These are the chance for each map item, not the chance to get A map. So it adds up really fast ----------
     ------------------------------------------------------------------------------------------------------------------
-    local baseChanceZombies = 0.15;
+    local baseChanceZombies = 0.2;
     local baseChanceMagazineRacks = 10;
     local baseChanceMechanics = 1.4;
     local baseChanceGlovebox = 0.6; 
@@ -874,7 +874,6 @@ local function initMapDistributions()
     -------------------- Distribution tweaks of the map items that already exist--------------------------
     ------------------------------------------------------------------------------------------------------
     if getActivatedMods():contains("BedfordFalls") then 
-        TweakItem("Base.BedfordMap","DisplayName", "Map of Bedford Falls");
         addMapToTownZombies("Base.BedfordMap", baseChanceZombies/2);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.BedfordMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
@@ -890,7 +889,6 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
     if getActivatedMods():contains("Fantasiado ST. Bernard's Hill") then
-        TweakItem("Base.STBernardHillMap","DisplayName", "Map of St. Bernard's Hill");
         addMapToTownZombies("Base.STBernardHillMap", baseChanceZombies/2);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.STBernardHillMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
@@ -906,7 +904,6 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
     if getActivatedMods():contains("Trelai_4x4_Steam") then
-        TweakItem("Base.trelaimap","DisplayName", "Map of Trelai");
         addMapToTownZombies("Base.trelaimap", baseChanceZombies/5);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.trelaimap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/5);
@@ -920,6 +917,21 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/5);
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.trelaimap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/5);
+    end
+    if getActivatedMods():contains("MonmouthCounty") then
+        addMapToTownZombies("Base.monmouthcountymap", baseChanceZombies/2);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.monmouthcountymap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.monmouthcountymap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.monmouthcountymap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.monmouthcountymap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.monmouthcountymap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.monmouthcountymap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
     ------------------------------------------------------------------------------------------------------
     ---------------------------- end of distribution tweaks ----------------------------------------------

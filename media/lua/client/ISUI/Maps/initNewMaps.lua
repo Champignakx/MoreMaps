@@ -530,7 +530,7 @@ local function initMapReveals()
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(9000, 11100, 10800, 11700)
 		-- overlayPNG(mapUI, 11093, 9222, 0.666, "badge", "media/textures/worldMap/MuldraughBadge.png")
-		overlayPNG(mapUI, 10501, 11131, 0.55, "legend", "media/textures/worldMap/Legend.png")
+		overlayPNG(mapUI, 10500, 11131, 0.53, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
@@ -848,13 +848,13 @@ local function initMapReveals()
 	end
 	
 	-- East Coryerdon
-	-- (7750, 5720, 8120, 6899)
+	-- (7780, 5720, 8120, 6899)
 	LootMaps.Init.EastCoryerdonMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/coryerdon')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(7750, 5720, 8120, 6899)
+		mapAPI:setBoundsInSquares(7780, 5720, 8120, 6899)
 		-- overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
@@ -895,7 +895,7 @@ local function initMapReveals()
 	
 	
 	
-	-- Militaryairport
+	-- MilitaryAirport
 	LootMaps.Init.MilitaryAirportMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/militaryairport')
@@ -1222,21 +1222,21 @@ local function initMapReveals()
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(12000, 9600, 12900, 10200)
-		overlayPNG(mapUI, 12700, 10000, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		overlayPNG(mapUI, 12650, 10000, 0.4, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 
 
 	-- Remus
 	-- (7500, 10800, 7800, 11400)
-	-- legend at (7510, 10810, 0.3)
+	-- legend at (7503, 10810, 0.3)
 	LootMaps.Init.RemusMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/zremus')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(7500, 10800, 7800, 11400)
-		overlayPNG(mapUI, 7510, 10810, 0.3, "legend", "media/textures/worldMap/Legend.png")
+		overlayPNG(mapUI, 7503, 10810, 0.3, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 
