@@ -1738,7 +1738,7 @@ local function initMapDistributions()
     end
 
     if SandboxVars.MoreMaps.BillionaireSafehouseLocation and getActivatedMods():contains("BillionaireSafehouse") then
-        -- OldPark Town Map
+        -- BillionaireSafehouseLocation
         addMapToTownZombies("Base.BillionaireSafehouseLocation", baseChanceZombies/10);
         table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.BillionaireSafehouseLocation");
         table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
@@ -1747,7 +1747,7 @@ local function initMapDistributions()
     end
 
     if SandboxVars.MoreMaps.WildberriesMap and getActivatedMods():contains("wildberries") then
-        -- OldPark Town Map
+        -- WildberriesMap
         addMapToTownZombies("Base.WildberriesMap", baseChanceZombies/2);
         addMapToCountrySideZombies("Base.WildberriesMap", baseChanceZombies/5);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.WildberriesMap");
@@ -1768,9 +1768,9 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
     end
     if SandboxVars.MoreMaps.TugalandMap and getActivatedMods():contains("Tugaland") then
-        -- OldPark Town Map
-        addMapToTownZombies("Base.TugalandMap", baseChanceZombies/2);
-        addMapToCountrySideZombies("Base.TugalandMap", baseChanceZombies/5);
+        -- TugalandMap
+        addMapToTownZombies("Base.TugalandMap", baseChanceZombies);
+        addMapToCountrySideZombies("Base.TugalandMap", baseChanceZombies/10);
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.TugalandMap");
         table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
         table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.TugalandMap");
@@ -1788,6 +1788,28 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TugalandMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
     end
+    if SandboxVars.MoreMaps.MonmouthCountyMap and getActivatedMods():contains("MonmouthCounty") then
+        -- MonmouthCountyMap
+        addMapToTownZombies("Base.MonmouthCountyMap", baseChanceZombies);
+        addMapToCountrySideZombies("Base.MonmouthCountyMap", baseChanceZombies/10);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.MonmouthCountyMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MonmouthCountyMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MonmouthCountyMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.MonmouthCountyMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.MonmouthCountyMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.MonmouthCountyMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.MonmouthCountyMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MonmouthCountyMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+
 
 end
 

@@ -128,6 +128,8 @@ Sandbox_EN = {
 
 	Sandbox_MoreMaps_TugalandMap = "Tugaland Map (mod)",
 	Sandbox_MoreMaps_TugalandMap_tooltip = "East of Muldraugh's Railyard",
+	Sandbox_MoreMaps_MonmouthCountyMap = "Monmouth County Map (mod)",
+	Sandbox_MoreMaps_MonmouthCountyMap_tooltip = "South of Wespoint, North of Dixie",
 
 
 

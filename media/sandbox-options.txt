@@ -429,4 +429,11 @@ option MoreMaps.TugalandMap
 	page = MoreMaps,
 	translation = MoreMaps_TugalandMap,
 }
+option MoreMaps.MonmouthCountyMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MonmouthCountyMap,
+}
 
