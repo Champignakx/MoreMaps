@@ -34,30 +34,36 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] New Ekron
 [*] Lake Ivy Township
 [*] 5x Weather Stations (5 maps of different weather stations from the "Save Our Station!" mod, very rare, the secret one is not found in usual places)
-[*] [i][Updated 01/02/2022][/i] Rosewood Expansion
+[*] Rosewood Expansion
 [*] Over The River
 [*] Little Township
 [*] Linden
-[*] [i][Updated 29/01/2022][/i] Refordville
+[*] Refordville
 [*] West Point South Trailer Park
 [*] Kingsmouth (the Kingsmouth In KY version, that is an island in the ohio river)
 [*] Survivor Warehouse (rare)
-[*] [i][Added 25/01/2022][/i] Chinatown
-[*] [i][Added 01/02/2022][/i] Old's Military Airfield (rare, not found in the usual places)
-[*] [i][Added 01/02/2022][/i] Chernaville
-[*] [i][Added 13/02/2022][/i] Blueberry
-[*] [i][Added 21/02/2022][/i] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
-[*] [i][Added 21/02/2022][/i] 3x Slocan lake maps ([b]REQUIRES[/b ] a mod, see [b]WARNING[/b] section)
-[*] [i][Added 21/02/2022][/i] 2x Fort Knox linked to Eerie Country ([b]REQUIRES a mod, see [b]WARNING[/b] section)
-[*] [i][Added 21/02/2022][/i] West Point Expansion ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
-[*] [i][Added 21/02/2022][/i] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
-[*] [i][Added 01/04/2022][/i] West Point Fire Department (added by NCrawler)
-[*] [i][added 01/04/2022][/i] March Ridge Expansion (added by NCrawler)
-[*] [i][Added 02/04/2022][/i] C.O.N. Research & Testing Facility (added by NCrawler)
+[*] Chinatown
+[*] Old's Military Airfield (rare, not found in the usual places)
+[*] Chernaville
+[*] Blueberry
+[*] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] 3x Slocan lake maps (no longuer requires external mod)
+[*] 2x Fort Knox linked to Eerie Country ([b]REQUIRES a mod, see [b]WARNING[/b] section)
+[*] West Point Expansion ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
+[*] March Ridge Expansion (added by NCrawler)
+[*] C.O.N. Research & Testing Facility (added by NCrawler)
 [*] [i][Added 02/04/2022][/i] Greenleaf (added by NCrawler)
-[*] [i][Added 03/04/2022][/i] Coryerdon (added by NCrawler)
+[*] [i][Added 03/04/2022][/i] x3 Coryerdon
 [*] [i][Added 03/04/2022][/i] OldPark Town (added by NCrawler)
-[*] [i][Added 07/04/2022][/i] Fort Redstone (updated by NCrawler) (No longer requires external mod)
+[*] [i][Added 08/05/2022][/i] Fort Redstone (updated by NCrawler) (No longer requires external mod)
+[*] [i][Added 08/05/2022][/i] EZPZ Community Center
+[*] [i][Added 08/05/2022][/i] Old Pine Village
+[*] [i][Added 08/05/2022][/i] Wildberries
+[*] [i][Added 08/05/2022][/i] Tugaland
+[*] [i][Added 08/05/2022][/i] Monmouth County
+[*] [i][Added 08/05/2022][/i] Remus
+[*] [i][Added 08/05/2022][/i] x2 Trimble County Power Station & La Grange
 
 [/list]
 [u][b]Exceptions:[/b][/u]

@@ -98,9 +98,11 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_BlueberryMap_tooltip="West of Rosewood, after Grapeseed",
 	Sandbox_MoreMaps_GreenleafMap="Greenleaf Map (mod)",
 	Sandbox_MoreMaps_GreenleafMap_tooltip="North West of Rosewood",
-	Sandbox_MoreMaps_CoryerdonMap = "Coryerdon Map (mod)",
-	Sandbox_MoreMaps_CoryerdonMap_tooltip = "North of West Point, on the other side of the river",
-	Sandbox_MoreMaps_OldParkTownMap = "OldPark Town Map (mod)",
+
+	Sandbox_MoreMaps_CoryerdonMap = "Coryerdon Maps (x3) (mod)",
+	Sandbox_MoreMaps_CoryerdonMap_tooltip = "North West of West Point, East of Riverside's Country Club on the other side of the river",
+
+	Sandbox_MoreMaps_OldParkTownMap = "Old Park Town Map (mod)",
 	Sandbox_MoreMaps_OldParkTownMap_tooltip = "South of Ed's Auto Salvage",
 
 
@@ -137,11 +139,6 @@ Sandbox_EN = {
 
 	Sandbox_MoreMaps_TrimbleCountyMaps = "Maps of Trimble County (power station and La Grange) (mod)",
 	Sandbox_MoreMaps_TrimbleCountyMaps_tooltip = "West of Louisville",
-
-	Sandbox_MoreMaps_TrelaiMap = "Maps of Trelai (mod)",
-	Sandbox_MoreMaps_TrelaiMap_tooltip = "North of Ekron, West of Riverside's Country Club",
-
-
 
 
 }

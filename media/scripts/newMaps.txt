@@ -774,14 +774,36 @@ module Base
         WorldStaticModel = Map,
     }
 	
-	item CoryerdonMap
+	item EastCoryerdonMap
     {
         DisplayCategory = Cartography,
         Type				=			Map,
-        DisplayName			=		    Map of Coryerdon,
+        DisplayName			=		    Map of Coryerdon: East,
         Icon				=			Map,
         Weight				=			0.1,
-        Map                 =           CoryerdonMap,
+        Map                 =           EastCoryerdonMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+	item SouthCoryerdonMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Map of Coryerdon: South,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           SouthCoryerdonMap,
+        SurvivalGear = TRUE,
+        WorldStaticModel = Map,
+    }
+	item CenterCoryerdonMap
+    {
+        DisplayCategory = Cartography,
+        Type				=			Map,
+        DisplayName			=		    Map of Coryerdon: Center,
+        Icon				=			Map,
+        Weight				=			0.1,
+        Map                 =           CenterCoryerdonMap,
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
@@ -1099,16 +1121,5 @@ module Base
         WorldStaticModel    =   Map,
     }
 
-    item TrelaiMap
-    {
-        DisplayCategory     =   Cartography,
-        Type				=	Map,
-        DisplayName			=	Map of Trelai,
-        Icon				=	Map,
-        Weight				=	0.1,
-        Map                 =   TrelaiMap,
-        SurvivalGear        =   TRUE,
-        WorldStaticModel    =   Map,
-    }
 
 }

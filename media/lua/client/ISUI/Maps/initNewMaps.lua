@@ -530,7 +530,7 @@ local function initMapReveals()
 		replaceWaterStyle(mapUI)
 		mapAPI:setBoundsInSquares(9000, 11100, 10800, 11700)
 		-- overlayPNG(mapUI, 11093, 9222, 0.666, "badge", "media/textures/worldMap/MuldraughBadge.png")
-		overlayPNG(mapUI, 10501, 11101, 0.8, "legend", "media/textures/worldMap/Legend.png")
+		overlayPNG(mapUI, 10501, 11131, 0.55, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
@@ -847,14 +847,37 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 	
-	-- Coryerdon
-	LootMaps.Init.CoryerdonMap = function(mapUI)
+	-- East Coryerdon
+	-- (7750, 5720, 8120, 6899)
+	LootMaps.Init.EastCoryerdonMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/coryerdon')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(7200, 5700, 9899, 7199)
-		overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		mapAPI:setBoundsInSquares(7750, 5720, 8120, 6899)
+		-- overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	-- South Coryerdon
+	-- (8200, 6700, 9000, 7200)
+	LootMaps.Init.SouthCoryerdonMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/coryerdon')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(8200, 6700, 9000, 7200)
+		-- overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	-- Center Coryerdon
+	-- (8120, 5720, 9000, 6825)
+	LootMaps.Init.CenterCoryerdonMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/coryerdon')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(8120, 5720, 9000, 6825)
+		-- overlayPNG(mapUI, 7201, 5701, 0.4, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
 	
@@ -1249,24 +1272,14 @@ local function initMapReveals()
 		mapAPI:setBoundsInSquares(15600, 3000, 16400, 3550)
 		MapUtils.overlayPaper(mapUI)
 	end
-
-	-- Trelai 4x4
-	--	( 6600, 6600, 7800, 7800 )
-	-- legend at (7600, 6800, 0.7)
-	LootMaps.Init.TrelaiMap = function(mapUI)
-		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Trelai_4x4')
-		MapUtils.initDefaultStyleV1(mapUI)
-		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(6600, 6600, 7800, 7800)
-		overlayPNG(mapUI, 7600, 6800, 0.7, "legend", "media/textures/worldMap/Legend.png")
-		MapUtils.overlayPaper(mapUI)
-	end
-
-
-
-
+	
 	-- TODO
+	-- EZPZ Community Center
+	-- (10500, 6600 , 10800, 6900)
+
+	-- Old Pine Village
+	-- (10200, 12900, 10800, 14700)
+
 	-- Firecamp, KY whent it is added
 	--
 

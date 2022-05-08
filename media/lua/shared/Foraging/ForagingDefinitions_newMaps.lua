@@ -1433,8 +1433,50 @@ local function initForageableMaps()
             };
         end
 		if SandboxVars.MoreMaps.CoryerdonMap and getActivatedMods():contains("coryerdon") then
-            forageDefs["CoryerdonMap"] = {
-                type = "Base.CoryerdonMap",
+            forageDefs["EastCoryerdonMap"] = {
+                type = "Base.EastCoryerdonMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+            forageDefs["SouthCoryerdonMap"] = {
+                type = "Base.SouthCoryerdonMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+            forageDefs["CenterCoryerdonMap"] = {
+                type = "Base.CenterCoryerdonMap",
                 skill = 4,
                 xp = 50,
                 categories = { "Junk" },
@@ -2012,9 +2054,9 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
-        if SandboxVars.MoreMaps.TrelaiMap and getActivatedMods():contains("Trelai_4x4_Steam") then
-            forageDefs["TrelaiMap"] = {
-                type = "Base.TrelaiMap",
+        if getActivatedMods():contains("Trelai_4x4_Steam") then
+            forageDefs["trelaimap"] = {
+                type = "Base.trelaimap",
                 skill = 4,
                 xp = 50,
                 categories = { "Junk" },
