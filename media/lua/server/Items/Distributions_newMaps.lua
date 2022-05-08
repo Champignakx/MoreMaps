@@ -1746,6 +1746,28 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
     end
 
+    if SandboxVars.MoreMaps.WildberriesMap and getActivatedMods():contains("wildberries") then
+        -- OldPark Town Map
+        addMapToTownZombies("Base.WildberriesMap", baseChanceZombies/2);
+        addMapToCountrySideZombies("Base.WildberriesMap", baseChanceZombies/5);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.WildberriesMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WildberriesMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.WildberriesMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.WildberriesMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.WildberriesMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.WildberriesMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.WildberriesMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.WildberriesMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+
 end
 
 Events.OnPreDistributionMerge.Add(initMapDistributions)

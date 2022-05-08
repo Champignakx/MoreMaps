@@ -1181,6 +1181,14 @@ local function initMapReveals()
 
 	-- Wildberries
 	-- (4500, 6600, 4800, 7500)
+	LootMaps.Init.WildberriesMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Wildberries')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(4500, 6600, 4800, 7500)
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- Tugaland
 	-- (12000, 9600, 12900, 10200)

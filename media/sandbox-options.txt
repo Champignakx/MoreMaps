@@ -406,3 +406,19 @@ option MoreMaps.FortRedstoneMap
 	page = MoreMaps,
 	translation = MoreMaps_FortRedstoneMap,
 }
+
+option MoreMaps.BillionaireSafehouseLocation
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_BillionaireSafehouseLocation,
+}
+
+option MoreMaps.WildberriesMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WildberriesMap,
+}

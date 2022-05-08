@@ -1031,4 +1031,16 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
+
+    item WildberriesMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Wildberries,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   WildberriesMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 }

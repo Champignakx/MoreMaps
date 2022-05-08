@@ -123,6 +123,9 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_BillionaireSafehouseLocation = "Billionaire Safehouse Location (mod)",
 	Sandbox_MoreMaps_BillionaireSafehouseLocation_tooltip = "South of West Point",
 
-	
+	Sandbox_MoreMaps_WildberriesMap = "Wildberries Map (mod)",
+	Sandbox_MoreMaps_BWildberriesMap_tooltip = "West of Riverside's Country Club",
+
+
 
 }
