@@ -30,7 +30,7 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] 3x Raven Creek Districts (3 maps of different districts - SouthEast Suburbs, Northern Central, and Western Port Facilities, rare)
 [*] Grapeseed
 [*] Blackwood
-[*] Pitstop
+[*] [i][Updated 08/05/2022][/i] Pitstop
 [*] New Ekron
 [*] Lake Ivy Township
 [*] 5x Weather Stations (5 maps of different weather stations from the "Save Our Station!" mod, very rare, the secret one is not found in usual places)
@@ -56,13 +56,14 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] Greenleaf (added by NCrawler)
 [*] x3 Coryerdon 
 [*] OldPark Town (added by NCrawler)
-[*] [i][Added 08/05/2022][/i] Fort Redstone (updated by NCrawler)
-[*] [i][Added 08/05/2022][/i] EZPZ Community Center
-[*] [i][Added 08/05/2022][/i] Old Pine Village
-[*] [i][Added 08/05/2022][/i] Wildberries
-[*] [i][Added 08/05/2022][/i] Tugaland
-[*] [i][Added 08/05/2022][/i] Remus
-[*] [i][Added 08/05/2022][/i] x2 Trimble County Power Station & La Grange
+[*] [i][Updated 08/05/2022][/i] Fort Redstone (updated by NCrawler)
+[*] [i][NEW Added 08/05/2022][/i] EZPZ Community Center
+[*] [i][NEW Added 08/05/2022][/i] Old Pine Village
+[*] [i][NEW Added 08/05/2022][/i] Wildberries
+[*] [i][NEW Added 08/05/2022][/i] Tugaland
+[*] [i][NEW Added 08/05/2022][/i] Remus
+[*] [i][NEW Added 08/05/2022][/i] Billionaire Safehouse Adress
+[*] [i][NEW Added 08/05/2022][/i] x2 Trimble County Power Station & La Grange
 
 [/list]
 [u][b]Exceptions:[/b][/u]
