@@ -1020,4 +1020,15 @@ module Base
         SurvivalGear = TRUE,
         WorldStaticModel = Map,
     }
+    item BillionaireSafehouseLocation
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Adress of a Billionaire's Safehouse,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   BillionaireSafehouseLocation,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 }

@@ -528,9 +528,9 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Pitstop')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(8999, 11099, 9901, 11701)
+		mapAPI:setBoundsInSquares(9000, 11100, 10800, 11700)
 		-- overlayPNG(mapUI, 11093, 9222, 0.666, "badge", "media/textures/worldMap/MuldraughBadge.png")
-		overlayPNG(mapUI, 9733, 11565, 0.28, "legend", "media/textures/worldMap/Legend.png")
+		overlayPNG(mapUI, 10501, 11101, 0.8, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	--	overlayPNG(mapUI, 10524, 9222, 0.666, "lootMapPNG", "media/ui/LootableMaps/muldraughmap.png", 0.5)
 	end
@@ -1162,17 +1162,51 @@ local function initMapReveals()
 		end
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(5400, 11100, 5700, 12000)
+		mapAPI:setBoundsInSquares(5400, 11100, 6000, 12300)
 		MapUtils.overlayPaper(mapUI)
 	end
 
 
-	-- TODO
-	-- add billionaire safehouse
-	-- add Irvington, KY
-	-- add Base Kraz
-	-- add Firecamp, KY
+
+	-- Billionaire safehouse
+	-- (10800, 7500, 11700, 8100)
+	LootMaps.Init.BillionaireSafehouseLocation = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/BillionaireSafehouse')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(10800, 7500, 11700, 8100)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- Wildberries
+	-- (4500, 6600, 4800, 7500)
+
+	-- Tugaland
+	-- (12000, 9600, 12900, 10200)
+	-- legend at (12700, 10000, 0.5)
+
+	-- Monmouth County
+	-- (11700, 8100, 12000, 8700)
+
+	-- Remus
+	-- (7500, 10800, 7800, 11400)
+	-- legend at (7510, 10810, 0.3)
+
+	-- Trimble County Power Station
+	-- ( 15000, 3000, 15300, 3600)
 	
+	-- Trimble County La Grange
+	-- (15600, 3000, 16400, 3550)
+
+	-- Trelai 4x4
+	--	( 6600, 6600, 7800, 7800 )
+	-- legend at (7600, 6800, 0.7)
+
+	-- TODO
+	-- Firecamp, KY whent it is added
+	--
+
 end 
 
 

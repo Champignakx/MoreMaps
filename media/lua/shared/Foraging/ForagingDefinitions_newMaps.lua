@@ -1829,10 +1829,33 @@ local function initForageableMaps()
             };
 
         end
-
         if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
             forageDefs["FortRedstoneMap"] = {
                 type = "Base.FortRedstoneMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
+
+        if SandboxVars.MoreMaps.BillionaireSafehouseLocation and getActivatedMods():contains("BillionaireSafehouse") then
+            forageDefs["BillionaireSafehouseLocation"] = {
+                type = "Base.BillionaireSafehouseLocation",
                 skill = 4,
                 xp = 50,
                 categories = { "Junk" },

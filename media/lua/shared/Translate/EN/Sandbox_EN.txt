@@ -116,7 +116,13 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_FortKnoxMaps = "Fort Knox Maps (x2) (mod + "InGameMaps" mod)",
 	Sandbox_MoreMaps_FortKnoxMaps_tooltip= "South of Bedford Falls, East of Eerie Country. Quitman Map, Fort Knox Map. Rare."
 
-	Sandbox_MoreMaps_FortRedstoneMap = "Fort Redstone Map (mod + "InGameMaps" mod)",
+	Sandbox_MoreMaps_FortRedstoneMap = "Fort Redstone Map (mod)",
 	Sandbox_MoreMaps_FortRedstoneMap_tooltip = "Between Grapeseed and Ravencreek.",
+
+
+	Sandbox_MoreMaps_BillionaireSafehouseLocation = "Billionaire Safehouse Location (mod)",
+	Sandbox_MoreMaps_BillionaireSafehouseLocation_tooltip = "South of West Point",
+
+	
 
 }

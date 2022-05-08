@@ -1737,6 +1737,15 @@ local function initMapDistributions()
 
     end
 
+    if SandboxVars.MoreMaps.BillionaireSafehouseLocation and getActivatedMods():contains("BillionaireSafehouse") then
+        -- OldPark Town Map
+        addMapToTownZombies("Base.BillionaireSafehouseLocation", baseChanceZombies/10);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.BillionaireSafehouseLocation");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.BillionaireSafehouseLocation");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
+    end
+
 end
 
 Events.OnPreDistributionMerge.Add(initMapDistributions)
