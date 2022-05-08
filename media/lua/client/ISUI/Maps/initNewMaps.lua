@@ -1284,6 +1284,17 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
+--  West Point Fire Department Map, (not in distributions, has been removed.)
+LootMaps.Init.WestPointFireDepartmentMap = function(mapUI)
+	local mapAPI = mapUI.javaObject:getAPIv1()
+	MapUtils.initDirectoryMapData(mapUI, 'media/maps/West Point Fire Department')
+	MapUtils.initDefaultStyleV1(mapUI)
+	replaceWaterStyle(mapUI)
+	mapAPI:setBoundsInSquares(11100, 6900, 11399, 7199)
+	overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
+	MapUtils.overlayPaper(mapUI)
+end
+
 	-- TODO
 	-- Firecamp, KY whent it is added
 	--
