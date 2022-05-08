@@ -1809,6 +1809,27 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MonmouthCountyMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
     end
+    if SandboxVars.MoreMaps.RemusMap and getActivatedMods():contains("RemusMapMod") then
+        -- RemusMap
+        addMapToTownZombies("Base.RemusMap", baseChanceZombies/5);
+        addMapToCountrySideZombies("Base.RemusMap", baseChanceZombies/2);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.RemusMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.RemusMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.RemusMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/2);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.RemusMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/2);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.RemusMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/2);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.RemusMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/2);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.RemusMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.RemusMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
+    end
 
 
 end

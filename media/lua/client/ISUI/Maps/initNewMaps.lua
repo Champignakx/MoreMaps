@@ -1218,6 +1218,15 @@ local function initMapReveals()
 	-- Remus
 	-- (7500, 10800, 7800, 11400)
 	-- legend at (7510, 10810, 0.3)
+	LootMaps.Init.RemusMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/zremus')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(7500, 10800, 7800, 11400)
+		overlayPNG(mapUI, 7510, 10810, 0.3, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- Trimble County Power Station
 	-- ( 15000, 3000, 15300, 3600)

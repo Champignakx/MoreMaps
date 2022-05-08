@@ -436,4 +436,11 @@ option MoreMaps.MonmouthCountyMap
 	page = MoreMaps,
 	translation = MoreMaps_MonmouthCountyMap,
 }
+option MoreMaps.RemusMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RemusMap,
+}
 
