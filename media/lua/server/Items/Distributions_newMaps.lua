@@ -1875,27 +1875,6 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TugalandMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
     end
-    if SandboxVars.MoreMaps.MonmouthCountyMap and getActivatedMods():contains("MonmouthCounty") then
-        -- MonmouthCountyMap
-        addMapToTownZombies("Base.MonmouthCountyMap", baseChanceZombies);
-        addMapToCountrySideZombies("Base.MonmouthCountyMap", baseChanceZombies/10);
-        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.MonmouthCountyMap");
-        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MonmouthCountyMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.MonmouthCountyMap");
-        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks);
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.MonmouthCountyMap");
-        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics);
-        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.MonmouthCountyMap");
-        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable);
-        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.MonmouthCountyMap");
-        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag);
-        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.MonmouthCountyMap");
-        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox);
-        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.MonmouthCountyMap");
-        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox);
-    end
     if SandboxVars.MoreMaps.RemusMap and getActivatedMods():contains("RemusMapMod") then
         -- RemusMap
         addMapToTownZombies("Base.RemusMap", baseChanceZombies/5);

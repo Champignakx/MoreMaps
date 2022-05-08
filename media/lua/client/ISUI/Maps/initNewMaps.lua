@@ -1226,17 +1226,6 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
-	-- Monmouth County
-	-- (11700, 8100, 12000, 8700)
-	LootMaps.Init.MonmouthCountyMap = function(mapUI)
-		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/MonmouthCounty')
-		MapUtils.initDefaultStyleV1(mapUI)
-		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(11700, 8100, 12000, 8700)
-		MapUtils.overlayPaper(mapUI)
-	end
-
 
 	-- Remus
 	-- (7500, 10800, 7800, 11400)

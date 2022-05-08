@@ -1964,29 +1964,7 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
-        if SandboxVars.MoreMaps.MonmouthCountyMap and getActivatedMods():contains("MonmouthCounty") then
-            forageDefs["MonmouthCountyMap"] = {
-                type = "Base.MonmouthCountyMap",
-                skill = 4,
-                xp = 50,
-                categories = { "Junk" },
-                zones = {
-                    Forest      = 20,
-                    DeepForest  = 20,
-                    Vegitation  = 20,
-                    FarmLand    = 20,
-                    Farm        = 20,
-                    TrailerPark = 20,
-                    TownZone    = 20,
-                    Nav         = 20,
-                },
-                spawnFuncs = { doJunkWeaponSpawn },
-                forceOutside = false,
-                canBeAboveFloor = true,
-                itemSizeModifier = 1.0,
-                isItemOverrideSize = true,
-            };
-        end
+        
         if SandboxVars.MoreMaps.RemusMap and getActivatedMods():contains("RemusMapMod") then
             forageDefs["RemusMap"] = {
                 type = "Base.RemusMap",

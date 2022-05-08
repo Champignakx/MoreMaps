@@ -1076,17 +1076,6 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
-    item MonmouthCountyMap
-    {
-        DisplayCategory     =   Cartography,
-        Type				=	Map,
-        DisplayName			=	Map of Monmouth County,
-        Icon				=	Map,
-        Weight				=	0.1,
-        Map                 =   MonmouthCountyMap,
-        SurvivalGear        =   TRUE,
-        WorldStaticModel    =   Map,
-    }
     item RemusMap
     {
         DisplayCategory     =   Cartography,
