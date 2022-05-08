@@ -422,3 +422,11 @@ option MoreMaps.WildberriesMap
 	page = MoreMaps,
 	translation = MoreMaps_WildberriesMap,
 }
+option MoreMaps.TugalandMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_TugalandMap,
+}
+

@@ -1899,6 +1899,29 @@ local function initForageableMaps()
                 isItemOverrideSize = true,
             };
         end
+        if SandboxVars.MoreMaps.TugalandMap and getActivatedMods():contains("Tugaland") then
+            forageDefs["TugalandMap"] = {
+                type = "Base.TugalandMap",
+                skill = 4,
+                xp = 50,
+                categories = { "Junk" },
+                zones = {
+                    Forest      = 20,
+                    DeepForest  = 20,
+                    Vegitation  = 20,
+                    FarmLand    = 20,
+                    Farm        = 20,
+                    TrailerPark = 20,
+                    TownZone    = 20,
+                    Nav         = 20,
+                },
+                spawnFuncs = { doJunkWeaponSpawn },
+                forceOutside = false,
+                canBeAboveFloor = true,
+                itemSizeModifier = 1.0,
+                isItemOverrideSize = true,
+            };
+        end
         
     end
 

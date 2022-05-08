@@ -124,7 +124,10 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_BillionaireSafehouseLocation_tooltip = "South of West Point",
 
 	Sandbox_MoreMaps_WildberriesMap = "Wildberries Map (mod)",
-	Sandbox_MoreMaps_BWildberriesMap_tooltip = "West of Riverside's Country Club",
+	Sandbox_MoreMaps_WildberriesMap_tooltip = "West of Riverside's Country Club",
+
+	Sandbox_MoreMaps_TugalandMap = "Tugaland Map (mod)",
+	Sandbox_MoreMaps_TugalandMap_tooltip = "East of Muldraugh's Railyard",
 
 
 

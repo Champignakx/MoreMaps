@@ -1192,7 +1192,16 @@ local function initMapReveals()
 
 	-- Tugaland
 	-- (12000, 9600, 12900, 10200)
-	-- legend at (12700, 10000, 0.5)
+	-- legend at (12700, 10000, 0.4)
+	LootMaps.Init.TugalandMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Tugaland')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(12000, 9600, 12900, 10200)
+		overlayPNG(mapUI, 12700, 10000, 0.4, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
 
 	-- Monmouth County
 	-- (11700, 8100, 12000, 8700)
