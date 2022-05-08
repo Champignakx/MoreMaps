@@ -43,7 +43,7 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] Kingsmouth (the Kingsmouth In KY version, that is an island in the ohio river)
 [*] Survivor Warehouse (rare)
 [*] Chinatown
-[*] Old's Military Airfield (rare, not found in the usual places)
+[*] Old's Military Airfield
 [*] Chernaville
 [*] Blueberry
 [*] 11x Eerie Country maps ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
@@ -53,15 +53,14 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [*] Glenport ([b]REQUIRES[/b] a mod, see [b]WARNING[/b] section)
 [*] March Ridge Expansion (added by NCrawler)
 [*] C.O.N. Research & Testing Facility (added by NCrawler)
-[*] [i][Added 02/04/2022][/i] Greenleaf (added by NCrawler)
-[*] [i][Added 03/04/2022][/i] x3 Coryerdon
-[*] [i][Added 03/04/2022][/i] OldPark Town (added by NCrawler)
-[*] [i][Added 08/05/2022][/i] Fort Redstone (updated by NCrawler) (No longer requires external mod)
+[*] Greenleaf (added by NCrawler)
+[*] x3 Coryerdon 
+[*] OldPark Town (added by NCrawler)
+[*] [i][Added 08/05/2022][/i] Fort Redstone (updated by NCrawler)
 [*] [i][Added 08/05/2022][/i] EZPZ Community Center
 [*] [i][Added 08/05/2022][/i] Old Pine Village
 [*] [i][Added 08/05/2022][/i] Wildberries
 [*] [i][Added 08/05/2022][/i] Tugaland
-[*] [i][Added 08/05/2022][/i] Monmouth County
 [*] [i][Added 08/05/2022][/i] Remus
 [*] [i][Added 08/05/2022][/i] x2 Trimble County Power Station & La Grange
 
@@ -70,6 +69,8 @@ Maps of mods will also be disabled if you haven't activated the mod. (Even if th
 [list]
 [*] Bedford Falls: The Beford Falls mod itself already adds a map item, so no need for me to add another. I tweaked its distribution tables though.
 [*] St Bernard's Hill : Idem.
+[*] Trelai 4x4 : Idem.
+[*] Monmouth County : Idem.
 [/list]
 Some mods have not added the ingame map feature to their map zones yet, so I can't make map items for them.
 Once they have mapped their mod, I will add the corresponding item (if they haven't already).
