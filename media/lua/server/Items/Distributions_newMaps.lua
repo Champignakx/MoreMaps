@@ -1865,6 +1865,26 @@ local function initMapDistributions()
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TrimbleCountyLaGrangeMap");
         table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/2);
     end
+    if SandboxVars.MoreMaps.TrelaiMap and getActivatedMods():contains("Trelai_4x4_Steam") then
+        -- TrelaiMap (big map so less chance)
+        addMapToTownZombies("Base.TrelaiMap", baseChanceZombies/4);
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, "Base.TrelaiMap");
+        table.insert(ProceduralDistributions["list"]["CrateMechanics"].items, baseChanceMechanics/5);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.TrelaiMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/5);
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, "Base.TrelaiMap");
+        table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, baseChanceMagazineRacks/5);
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, "Base.TrelaiMap");
+        table.insert(ProceduralDistributions["list"]["StoreShelfMechanics"].items, baseChanceMechanics/5);
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, "Base.TrelaiMap");
+        table.insert(SuburbsDistributions["all"]["sidetable"]["junk"].items, baseChanceSideTable/5);
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, "Base.TrelaiMap");
+        table.insert(SuburbsDistributions["Bag_SurvivorBag"].items, baseChanceSurvivorBag/5);
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, "Base.TrelaiMap");
+        table.insert(VehicleDistributions["GloveBox"]["junk"].items, baseChanceGlovebox/5);
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, "Base.TrelaiMap");
+        table.insert(VehicleDistributions["Police"]["GloveBox"]["junk"].items, baseChanceGlovebox/5);
+    end
 
 
 end

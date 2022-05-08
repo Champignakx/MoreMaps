@@ -450,5 +450,12 @@ option MoreMaps.TrimbleCountyMaps
 	page = MoreMaps,
 	translation = MoreMaps_TrimbleCountyMaps,
 }
+option MoreMaps.TrelaiMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_TrelaiMap,
+}
 
 

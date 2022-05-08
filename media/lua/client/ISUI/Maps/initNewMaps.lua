@@ -1253,6 +1253,18 @@ local function initMapReveals()
 	-- Trelai 4x4
 	--	( 6600, 6600, 7800, 7800 )
 	-- legend at (7600, 6800, 0.7)
+	LootMaps.Init.TrelaiMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Trelai_4x4')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6600, 6600, 7800, 7800)
+		overlayPNG(mapUI, 7600, 6800, 0.7, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+
+
+
 
 	-- TODO
 	-- Firecamp, KY whent it is added
