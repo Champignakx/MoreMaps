@@ -121,6 +121,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_FortRedstoneMap = "Fort Redstone Map (mod)",
 	Sandbox_MoreMaps_FortRedstoneMap_tooltip = "Between Grapeseed and Ravencreek.",
 
+	Sandbox_MoreMaps_FortRockRidgeMap = "Fort Rock Ridge Map (mod)",
+	Sandbox_MoreMaps_FortRockRidgeMap_tooltip = "East of Riverside's Country Club, North of Ekron.",
 
 	Sandbox_MoreMaps_BillionaireSafehouseLocation = "Billionaire Safehouse Location (mod)",
 	Sandbox_MoreMaps_BillionaireSafehouseLocation_tooltip = "South of West Point",

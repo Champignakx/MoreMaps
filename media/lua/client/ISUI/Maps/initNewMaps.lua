@@ -1295,10 +1295,22 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
+	--  Fort Rock Ridge Map
+	-- (6600, 6300, 7200, 6900)
+	LootMaps.Init.FortRockRidgeMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Rock Ridge')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6601, 6301, 7199, 6899)
+		-- overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
+		MapUtils.overlayPaper(mapUI)
+	end
+	
 	-- TODO
 	-- Firecamp, KY whent it is added
 	-- Fort Rock Ridge
-	
+
 end 
 
 

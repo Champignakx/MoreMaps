@@ -93,6 +93,9 @@ local function initForageableMaps()
                 addMapToForageDefs("CabinLocation5", 30);
             end
         end
+        -------------------
+        -- MILITARY MAPS --
+        -------------------
         if SandboxVars.MoreMaps.MilitaryMaps then
             addMapToForageDefs("MilitaryBaseMap", 10);
             if SandboxVars.MoreMaps.WeatherStationLocations and getActivatedMods():contains("SaveOurStation_KnoxCountry")  then
@@ -100,6 +103,15 @@ local function initForageableMaps()
             end
             if SandboxVars.MoreMaps.MilitaryAirportMap and getActivatedMods():contains("Militaryairport")  then
                 addMapToForageDefs("MilitaryAirportMap", 20);
+            end
+            if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
+                addMapToForageDefs("FortRedstoneMap", 10);
+            end
+            if SandboxVars.MoreMaps.FortKnoxMaps and getActivatedMods():contains("FortKnoxLinked") then
+                addMapToForageDefs("FK_FortKnoxMap", 20);
+            end
+            if SandboxVars.MoreMaps.FortRockRidgeMap and getActivatedMods():contains("Fort Rock Ridge") then
+                addMapToForageDefs("FortRockRidgeMap", 20);
             end
         end
         if SandboxVars.MoreMaps.GrapeseedMap and getActivatedMods():contains("Grapeseed") then
@@ -203,10 +215,6 @@ local function initForageableMaps()
         end
         if SandboxVars.MoreMaps.FortKnoxMaps and getActivatedMods():contains("FortKnoxLinked") then
             addMapToForageDefs("FK_QuitmanMap", 20);
-            addMapToForageDefs("FK_FortKnoxMap", 20);
-        end
-        if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
-            addMapToForageDefs("FortRedstoneMap", 10);
         end
         if SandboxVars.MoreMaps.BillionaireSafehouseLocation and getActivatedMods():contains("BillionaireSafehouse") then
             addMapToForageDefs("BillionaireSafehouseLocation", 20);

@@ -1154,5 +1154,16 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
+    item FortRockRidgeMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Fort Rock Ridge,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   FortRockRidgeMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 
 }

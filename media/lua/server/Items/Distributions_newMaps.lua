@@ -177,9 +177,9 @@ local function addMapToMilitaryZombies(_map , _weightChance)
     table.insert(SuburbsDistributions["all"]["Outfit_PoliceRiot"].items, _weightChance);
     -- army containers
     table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _map);
-    table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _weightChance/4);
+    table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _weightChance/2);
     table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _map);
-    table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _weightChance/4);
+    table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _weightChance/2);
     -- outfits from expanded helicopter events 
     if getActivatedMods():contains("ExpandedHelicopterEvents") then
         table.insert(SuburbsDistributions["all"]["Outfit_EHEMilitaryPilot"].items, _map);
@@ -368,7 +368,7 @@ local function initMapDistributions()
         SuburbsDistributions.all.Outfit_EHEBlackPilot = SuburbsDistributions.all.Outfit_EHEBlackPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
     end
 
-    
+
 
     if SandboxVars.MoreMaps.KentuckyCompleteMap then -- very low chance
         addMapToMilitaryZombies("Base.KentuckyMap", baseChanceZombies/100);
@@ -654,6 +654,13 @@ local function initMapDistributions()
             addMapToSurvivorBag("Base.FK_FortKnoxMap", baseChanceSurvivorBag/4);
             addMapToPoliceGlovebox("Base.FK_FortKnoxMap", baseChanceGlovebox/4);
         end       
+        if SandboxVars.MoreMaps.FortRockRidgeMap and getActivatedMods():contains("Fort Rock Ridge") then
+            -- FortRockRidgeMap
+            addMapToMilitaryZombies("Base.FortRockRidgeMap", baseChanceZombies);
+            addMapToSurvivorBag("Base.FortRockRidgeMap", baseChanceSurvivorBag/2);
+            addMapToPoliceGlovebox("Base.FortRockRidgeMap", baseChanceGlovebox/2);
+        end       
+        
     end
     if SandboxVars.MoreMaps.SmallTownWestMap then
         --SmallTownWestMap map

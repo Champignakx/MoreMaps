@@ -459,3 +459,11 @@ option MoreMaps.OldPineVillageMap
 	translation = MoreMaps_OldPineVillageMap,
 }
 
+option MoreMaps.FortRockRidgeMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortRockRidgeMap,
+}
+
