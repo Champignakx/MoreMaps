@@ -74,32 +74,34 @@ local function addMapToTownZombies(_map , _weightChance)
     -- bags
     table.insert(SuburbsDistributions["Bag_DuffelBagTINT"].items, _map);
     table.insert(SuburbsDistributions["Bag_DuffelBagTINT"].items, _weightChance);
-    SuburbsDistributions["Bag_DuffelBagTINT"].maxMap = 1;
-    SuburbsDistributions["Bag_DuffelBagTINT"].rolls = 2;
     table.insert(SuburbsDistributions["Bag_Schoolbag"].items, _map);
     table.insert(SuburbsDistributions["Bag_Schoolbag"].items, _weightChance);
-    SuburbsDistributions["Bag_DuffelBagTINT"].maxMap = 1;
-    SuburbsDistributions["Bag_DuffelBagTINT"].rolls = 2;
     table.insert(SuburbsDistributions["Satchel"].items, _map);
     table.insert(SuburbsDistributions["Satchel"].items, _weightChance);
-    SuburbsDistributions["Satchel"].maxMap = 1;
-    SuburbsDistributions["Satchel"].rolls = 2;
     table.insert(SuburbsDistributions["Bag_Satchel"].items, _map);
     table.insert(SuburbsDistributions["Bag_Satchel"].items, _weightChance);
-    SuburbsDistributions["Bag_Satchel"].maxMap = 1;
-    SuburbsDistributions["Bag_Satchel"].rolls = 2;
     table.insert(SuburbsDistributions["Briefcase"].items, _map);
     table.insert(SuburbsDistributions["Briefcase"].items, _weightChance);
-    SuburbsDistributions["Briefcase"].maxMap = 1;
-    SuburbsDistributions["Briefcase"].rolls = 2;
     table.insert(SuburbsDistributions["Handbag"].items, _map);
     table.insert(SuburbsDistributions["Handbag"].items, _weightChance);
-    SuburbsDistributions["Handbag"].maxMap = 1;
-    SuburbsDistributions["Handbag"].rolls = 2;
     table.insert(SuburbsDistributions["Purse"].items, _map);
     table.insert(SuburbsDistributions["Purse"].items, _weightChance);
-    SuburbsDistributions["Purse"].maxMap = 1;
-    SuburbsDistributions["Purse"].rolls = 2;
+    -- outfits from expanded helicopter events 
+    if getActivatedMods():contains("ExpandedHelicopterEvents") then
+        table.insert(SuburbsDistributions["all"]["Outfit_EHENightwatchPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHENightwatchPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHECivilianPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHECivilianPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESamaritanPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESamaritanPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaider"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaider"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaiderLeader"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaiderLeader"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEBlackPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEBlackPilot"].items, _weightChance);
+    end
+    
 end
 
 
@@ -131,9 +133,30 @@ local function addMapToCountrySideZombies(_map , _weightChance)
     table.insert(SuburbsDistributions["Bag_BigHikingBag"].items, _weightChance);
     table.insert(SuburbsDistributions["Bag_NormalHikingBag"].items, _map);
     table.insert(SuburbsDistributions["Bag_NormalHikingBag"].items, _weightChance);
+    -- outfits from expanded helicopter events 
+    if getActivatedMods():contains("ExpandedHelicopterEvents") then
+        table.insert(SuburbsDistributions["all"]["Outfit_EHENightwatchPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHENightwatchPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHECivilianPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHECivilianPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESamaritanPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESamaritanPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaider"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaider"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaiderLeader"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHERaiderLeader"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEBlackPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEBlackPilot"].items, _weightChance);
+    end
+
 end
 
 local function addMapToMilitaryZombies(_map , _weightChance)
+    table.insert(SuburbsDistributions["all"]["Outfit_Veteran"].items, _map);
+    table.insert(SuburbsDistributions["all"]["Outfit_Veteran"].items, _weightChance);
+    table.insert(SuburbsDistributions["all"]["Outfit_Ghillie"].items, _map);
+    table.insert(SuburbsDistributions["all"]["Outfit_Ghillie"].items, _weightChance);
+
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyInstructor"].items, _map);
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyInstructor"].items, _weightChance);
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyCamoGreen"].items, _map);
@@ -154,9 +177,20 @@ local function addMapToMilitaryZombies(_map , _weightChance)
     table.insert(SuburbsDistributions["all"]["Outfit_PoliceRiot"].items, _weightChance);
     -- army containers
     table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _map);
-    table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _weightChance/2);
+    table.insert(ProceduralDistributions["list"]["LockerArmyBedroom"].items, _weightChance/4);
     table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _map);
-    table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _weightChance/2);
+    table.insert(ProceduralDistributions["list"]["ArmySurplusMisc"]["junk"].items, _weightChance/4);
+    -- outfits from expanded helicopter events 
+    if getActivatedMods():contains("ExpandedHelicopterEvents") then
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEMilitaryPilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEMilitaryPilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEPolicePilot"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEPolicePilot"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESoldier"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHESoldier"].items, _weightChance);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEPoliceOfficer"].items, _map);
+        table.insert(SuburbsDistributions["all"]["Outfit_EHEPoliceOfficer"].items, _weightChance);
+    end
 end
 
 local function addMapToMagazineRacks(_map, _weightChance)
@@ -209,7 +243,7 @@ local function addMapToSurvivorBag(_map, _weightChance)
 end
 local function addMapToRadioTruck(_map, _weightChance)
     table.insert(VehicleDistributions["Radio"]["TruckBed"].items, _map);
-    table.insert(VehicleDistributions["Radio"]["TruckBed"].items, _weightChance*4);
+    table.insert(VehicleDistributions["Radio"]["TruckBed"].items, _weightChance*3);
     table.insert(VehicleDistributions["Radio"]["GloveBox"].items, _map);
     table.insert(VehicleDistributions["Radio"]["GloveBox"].items, _weightChance);
     table.insert(VehicleDistributions["Radio"]["GloveBox"]["junk"].items, _map);
@@ -318,7 +352,23 @@ local function initMapDistributions()
     SuburbsDistributions.all.Outfit_Trader = SuburbsDistributions.all.Outfit_Trader or {rolls = 1,items = {},junk= {rolls =1, items={}}};
     SuburbsDistributions.all.Outfit_AirCrew = SuburbsDistributions.all.Outfit_AirCrew or {rolls = 1,items = {},junk= {rolls =1, items={}}};
     SuburbsDistributions.all.Outfit_ArmyInstructor = SuburbsDistributions.all.Outfit_ArmyInstructor or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+    SuburbsDistributions.all.Outfit_Ghillie = SuburbsDistributions.all.Outfit_Ghillie or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+    SuburbsDistributions.all.Outfit_Veteran = SuburbsDistributions.all.Outfit_Veteran or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+    
+    if getActivatedMods():contains("ExpandedHelicopterEvents") then
+        SuburbsDistributions.all.Outfit_EHEMilitaryPilot = SuburbsDistributions.all.Outfit_EHEMilitaryPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHEPolicePilot = SuburbsDistributions.all.Outfit_EHEPolicePilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHESoldier = SuburbsDistributions.all.Outfit_EHESoldier or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHEPoliceOfficer = SuburbsDistributions.all.Outfit_EHEPoliceOfficer or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHENightwatchPilot = SuburbsDistributions.all.Outfit_EHENightwatchPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHECivilianPilot = SuburbsDistributions.all.Outfit_EHECivilianPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHESamaritanPilot = SuburbsDistributions.all.Outfit_EHESamaritanPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHERaider = SuburbsDistributions.all.Outfit_EHERaider or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHERaiderLeader = SuburbsDistributions.all.Outfit_EHERaiderLeader or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+        SuburbsDistributions.all.Outfit_EHEBlackPilot = SuburbsDistributions.all.Outfit_EHEBlackPilot or {rolls = 1,items = {},junk= {rolls =1, items={}}};
+    end
 
+    
 
     if SandboxVars.MoreMaps.KentuckyCompleteMap then -- very low chance
         addMapToMilitaryZombies("Base.KentuckyMap", baseChanceZombies/100);
