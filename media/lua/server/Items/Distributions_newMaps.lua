@@ -191,7 +191,55 @@ local function addMapToMilitaryZombies(_map , _weightChance)
         table.insert(SuburbsDistributions["all"]["Outfit_EHEPoliceOfficer"].items, _map);
         table.insert(SuburbsDistributions["all"]["Outfit_EHEPoliceOfficer"].items, _weightChance);
     end
+
 end
+
+-- military vehicle loot from Filibusters Used Cars
+local function addMapToMilitaryVehicles(_map, _weightChance)
+    if getActivatedMods():contains("FRUsedCars") then
+        table.insert(VehicleDistributions["MilitaryGearTrunk"].items, _map);
+        table.insert(VehicleDistributions["MilitaryGearTrunk"].items, _weightChance);
+        table.insert(VehicleDistributions["MilitarySeat"].items, _map);
+        table.insert(VehicleDistributions["MilitarySeat"].items, _weightChance);
+    end
+    if getActivatedMods():contains("92amgeneralM998") then
+        table.insert(VehicleDistributions["M998"]["GloveBox"].items, _map);
+        table.insert(VehicleDistributions["M998"]["GloveBox"], _weightChance/2);
+        table.insert(VehicleDistributions["M998"]["GloveBox"]["junk"].items, _map);
+        table.insert(VehicleDistributions["M998"]["GloveBox"]["junk"], _weightChance);
+    end
+    if getActivatedMods():contains("74amgeneralM151A2") then
+        table.insert(VehicleDistributions["M151A2"]["GloveBox"].items, _map);
+        table.insert(VehicleDistributions["M151A2"]["GloveBox"], _weightChance/2);
+        table.insert(VehicleDistributions["M151A2"]["GloveBox"]["junk"].items, _map);
+        table.insert(VehicleDistributions["M151A2"]["GloveBox"]["junk"], _weightChance);
+    end
+    if getActivatedMods():contains("67commando") then
+        table.insert(VehicleDistributions["V100MilitaryStuff"]["GloveBox"].items, _map);
+        table.insert(VehicleDistributions["V100MilitaryStuff"]["GloveBox"], _weightChance/2);
+        table.insert(VehicleDistributions["V100MilitaryStuff"]["GloveBox"]["junk"].items, _map);
+        table.insert(VehicleDistributions["V100MilitaryStuff"]["GloveBox"]["junk"], _weightChance);
+        table.insert(VehicleDistributions["V100GloveBox"]["GloveBox"].items, _map);
+        table.insert(VehicleDistributions["V100GloveBox"]["GloveBox"], _weightChance/2);
+        table.insert(VehicleDistributions["V100GloveBox"]["GloveBox"]["junk"].items, _map);
+        table.insert(VehicleDistributions["V100GloveBox"]["GloveBox"]["junk"], _weightChance);
+    end
+    if getActivatedMods():contains("86oshkoshP19A") then
+        table.insert(VehicleDistributions["P19AGloveBox"].items, _map);
+        table.insert(VehicleDistributions["P19AGloveBox"], _weightChance);
+        table.insert(VehicleDistributions["P19AGloveBox"]["junk"].items, _map);
+        table.insert(VehicleDistributions["P19AGloveBox"]["junk"], _weightChance);
+        table.insert(VehicleDistributions["bigTrunk"].items, _map);
+        table.insert(VehicleDistributions["bigTrunk"], _weightChance/2);
+        table.insert(VehicleDistributions["bigTrunk"]["junk"].items, _map);
+        table.insert(VehicleDistributions["bigTrunk"]["junk"], _weightChance);
+        table.insert(VehicleDistributions["smallTrunk"].items, _map);
+        table.insert(VehicleDistributions["smallTrunk"], _weightChance/2);
+        table.insert(VehicleDistributions["smallTrunk"]["junk"].items, _map);
+        table.insert(VehicleDistributions["smallTrunk"]["junk"], _weightChance);
+    end
+end
+
 
 local function addMapToMagazineRacks(_map, _weightChance)
     table.insert(ProceduralDistributions["list"]["MagazineRackMaps"].items, _map);
@@ -267,6 +315,7 @@ local function initMapDistributions()
     local baseChanceSurvivorBag = 30;
     local baseChanceMapFactoryCrate = 50;
     local baseChanceCrateRandomJunk = 0.01;
+    local baseChanceMilitaryVehicles = 1;
     -------------------------------------------------------------------------------------------------------------------
     -------------------------------------------------------------------------------------------------------------------    
     -------------------------------------------------------------------------------------------------------------------
@@ -289,6 +338,33 @@ local function initMapDistributions()
     -- vehicle
     VehicleDistributions.GloveBox = VehicleDistributions.GloveBox or {rolls = 1, items={}, junk= {rolls =1, items={}}};
     VehicleDistributions.Police.GloveBox = VehicleDistributions.Police.GloveBox or {rolls = 1, items={}, junk= {rolls =1, items={}}};
+    if getActivatedMods():contains("FRUsedCars") then
+        VehicleDistributions.MilitaryGearTrunk = VehicleDistributions.MilitaryGearTrunk or {rolls = 1, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.MilitaryGearTrunk.junk= {rolls = 1, items={}}
+        VehicleDistributions.MilitarySeat = VehicleDistributions.MilitaryGearTrunk or {rolls = 1, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.MilitarySeat.junk= {rolls = 1, items={}}
+    end
+    -- some popular vehicle mods
+    if getActivatedMods():contains("92amgeneralM998") then
+        VehicleDistributions.M998.GloveBox = VehicleDistributions.M998.GloveBox or VehicleDistributions.GloveBox or {rolls = 1, items={}, junk= {rolls =1, items={}}};
+    end
+    if getActivatedMods():contains("74amgeneralM151A2") then
+        VehicleDistributions.M151A2.GloveBox = VehicleDistributions.M998.GloveBox or VehicleDistributions.GloveBox or {rolls = 1, items={}, junk= {rolls =1, items={}}};
+    end
+    if getActivatedMods():contains("67commando") then
+        VehicleDistributions.V100MilitaryStuff = VehicleDistributions.V100MilitaryStuff or {rolls = 2, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.V100MilitaryStuff.junk = {rolls = 1, items={}};
+        VehicleDistributions.V100GloveBox = VehicleDistributions.V100GloveBox or {rolls = 3, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.V100GloveBox.junk = {rolls = 1, items={}};
+    end
+    if getActivatedMods():contains("86oshkoshP19A") then
+        VehicleDistributions.P19AGloveBox = VehicleDistributions.V100MilitaryStuff or {rolls = 4, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.P19AGloveBox.junk = {rolls = 1, items={}};
+        VehicleDistributions.bigTrunk = VehicleDistributions.V100GloveBox or {rolls = 2, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.bigTrunk.junk = {rolls = 1, items={}};
+        VehicleDistributions.smallTrunk = VehicleDistributions.V100GloveBox or {rolls = 3, items={}, junk= {rolls =1, items={}}};
+        VehicleDistributions.smallTrunk.junk = {rolls = 1, items={}};
+    end
     --suburbs
     SuburbsDistributions = SuburbsDistributions or {};
     SuburbsDistributions.all = SuburbsDistributions.all or {};
@@ -631,10 +707,12 @@ local function initMapDistributions()
         addMapToMilitaryZombies("Base.MilitaryBaseMap", baseChanceZombies/10);
         addMapToSurvivorBag("Base.MilitaryBaseMap", baseChanceSurvivorBag/4);
         addMapToPoliceGlovebox("Base.MilitaryBaseMap", baseChanceGlovebox/10);
+        addMapToMilitaryVehicles("Base.MilitaryBaseMap", baseChanceMilitaryVehicles/4);
         if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
             addMapToMilitaryZombies("Base.FortRedstoneMap", baseChanceZombies);
             addMapToSurvivorBag("Base.FortRedstoneMap", baseChanceSurvivorBag/2);
             addMapToPoliceGlovebox("Base.FortRedstoneMap", baseChanceGlovebox/4);
+            addMapToMilitaryVehicles("Base.FortRedstoneMap", baseChanceMilitaryVehicles);
         end
         if SandboxVars.MoreMaps.WeatherStationLocations and getActivatedMods():contains("SaveOurStation_KnoxCountry") then
             --StationZULULocation map
@@ -642,23 +720,27 @@ local function initMapDistributions()
             addMapToSurvivorBag("Base.StationZULULocation", baseChanceSurvivorBag/2);
             addMapToPoliceGlovebox("Base.StationZULULocation", baseChanceGlovebox/4);
             addMapToRadioTruck("Base.StationZULULocation", baseChanceGlovebox);
+            addMapToMilitaryVehicles("Base.StationZULULocation", baseChanceMilitaryVehicles);
         end
         if SandboxVars.MoreMaps.MilitaryAirportMap and getActivatedMods():contains("Militaryairport") then
             addMapToMilitaryZombies("Base.MilitaryAirportMap", baseChanceZombies);
             addMapToSurvivorBag("Base.MilitaryAirportMap", baseChanceSurvivorBag/2);
             addMapToPoliceGlovebox("Base.MilitaryAirportMap", baseChanceGlovebox/4);
+            addMapToMilitaryVehicles("Base.MilitaryAirportMap", baseChanceMilitaryVehicles);
         end
         if SandboxVars.MoreMaps.FortKnoxMaps and getActivatedMods():contains("FortKnoxLinked") and getActivatedMods():contains("InGameMaps") then
             -- Full Fort Knox map
             addMapToMilitaryZombies("Base.FK_FortKnoxMap", baseChanceZombies/4);
             addMapToSurvivorBag("Base.FK_FortKnoxMap", baseChanceSurvivorBag/4);
             addMapToPoliceGlovebox("Base.FK_FortKnoxMap", baseChanceGlovebox/4);
+            addMapToMilitaryVehicles("Base.FK_FortKnoxMap", baseChanceMilitaryVehicles/4);
         end       
         if SandboxVars.MoreMaps.FortRockRidgeMap and getActivatedMods():contains("Fort Rock Ridge") then
             -- FortRockRidgeMap
             addMapToMilitaryZombies("Base.FortRockRidgeMap", baseChanceZombies);
             addMapToSurvivorBag("Base.FortRockRidgeMap", baseChanceSurvivorBag/2);
             addMapToPoliceGlovebox("Base.FortRockRidgeMap", baseChanceGlovebox/2);
+            addMapToMilitaryVehicles("Base.FortRockRidgeMap", baseChanceMilitaryVehicles);
         end       
         
     end
