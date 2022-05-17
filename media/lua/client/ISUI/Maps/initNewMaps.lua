@@ -394,7 +394,7 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(5300, 12000, 7570, 13499)
+		mapAPI:setBoundsInSquares(5400, 12300, 5900, 12800)
 		-- overlayPNG(mapUI, 11093, 9222, 0.666, "badge", "media/textures/worldMap/MuldraughBadge.png")
 		--overlayPNG(mapUI, 12410, 6100, 0.5, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
@@ -1302,15 +1302,97 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Rock Ridge')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(6601, 6301, 7199, 6899)
+		mapAPI:setBoundsInSquares(6601, 6301, 7100, 6750)
 		-- overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
-	
-	-- TODO
-	-- Firecamp, KY whent it is added
-	-- Fort Rock Ridge
 
+	-- Fort Benning
+	-- (6000, 6900, 6300, 7200)
+	LootMaps.Init.FortBenningMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Benning')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6000, 6900, 6300, 7200)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- Research Facility
+	--(5400, 12300, 5900, 12800)
+	LootMaps.Init.ResearchFacilityMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/researchbase')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(5400, 12300, 5900, 12800)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- Christmas Village
+	-- (14100, 600, 14400, 1150)
+	LootMaps.Init.ChristmasVillageMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/ChristmasVillage')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(14100, 600, 14400, 1150)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+
+
+	-- Fort Waterfront
+	-- (10200, 10800, 10500, 11500)
+	LootMaps.Init.FortWaterfrontMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Waterfront')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(10200, 10800, 10500, 11500)
+		MapUtils.overlayPaper(mapUI)
+	end
+	
+	-- Muldraugh Military Base
+	-- (9600, 10200, 9900, 10500)
+	LootMaps.Init.MuldraughMilitaryBaseMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh Military Base')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9600, 10200, 9900, 10500)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- Hong Kong
+	-- (13200, 6000, 13800, 6600)
+	LootMaps.Init.HongKongDistrictMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Dead in Hong Kong')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(13200, 6000, 13800, 6600)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- Hyrule County
+	-- (9300, 7800, 9600, 8400)
+	LootMaps.Init.HyruleCountyMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Hyrule County')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(9300, 7800, 9600, 8400)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- TODO
+	-- Riverwood
+	-- ()
+
+	-- Firecamp, KY whent it is added
+	-- westwood when it is added
+	-- Frankfort, KY when it is added
 end 
 
 

@@ -156,7 +156,6 @@ local function addMapToMilitaryZombies(_map , _weightChance)
     table.insert(SuburbsDistributions["all"]["Outfit_Veteran"].items, _weightChance);
     table.insert(SuburbsDistributions["all"]["Outfit_Ghillie"].items, _map);
     table.insert(SuburbsDistributions["all"]["Outfit_Ghillie"].items, _weightChance);
-
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyInstructor"].items, _map);
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyInstructor"].items, _weightChance);
     table.insert(SuburbsDistributions["all"]["Outfit_ArmyCamoGreen"].items, _map);
@@ -315,7 +314,7 @@ local function initMapDistributions()
     local baseChanceSurvivorBag = 30;
     local baseChanceMapFactoryCrate = 50;
     local baseChanceCrateRandomJunk = 0.01;
-    local baseChanceMilitaryVehicles = 1;
+    local baseChanceMilitaryVehicles = 1.2;
     -------------------------------------------------------------------------------------------------------------------
     -------------------------------------------------------------------------------------------------------------------    
     -------------------------------------------------------------------------------------------------------------------
@@ -611,6 +610,8 @@ local function initMapDistributions()
         addMapToTownZombies("Base.LouisvilleLSUMap", baseChanceZombies/2);
         table.insert(SuburbsDistributions["all"]["Outfit_Student"].items, "Base.LouisvilleLSUMap");
         table.insert(SuburbsDistributions["all"]["Outfit_Student"].items, baseChanceZombies*2);
+        table.insert(SuburbsDistributions["all"]["Outfit_Teacher"].items, "Base.LouisvilleLSUMap");
+        table.insert(SuburbsDistributions["all"]["Outfit_Teacher"].items, baseChanceZombies*2);
         table.insert(ProceduralDistributions["list"]["SchoolLockers"].items, "Base.LouisvilleLSUMap");
         table.insert(ProceduralDistributions["list"]["SchoolLockers"].items, 1);
         addMapToMechanics("Base.LouisvilleLSUMap", baseChanceMechanics/2);
@@ -703,11 +704,26 @@ local function initMapDistributions()
         addMapToCrateRandomJunk("Base.MuldraughWarehouseComplexMap", baseChanceCrateRandomJunk/4);
     end
     if SandboxVars.MoreMaps.MilitaryMaps then
-        --MilitaryBaseMap map
-        addMapToMilitaryZombies("Base.MilitaryBaseMap", baseChanceZombies/10);
-        addMapToSurvivorBag("Base.MilitaryBaseMap", baseChanceSurvivorBag/4);
-        addMapToPoliceGlovebox("Base.MilitaryBaseMap", baseChanceGlovebox/10);
-        addMapToMilitaryVehicles("Base.MilitaryBaseMap", baseChanceMilitaryVehicles/4);
+        if getActivatedMods():contains("rbr") then
+            --ResearchFacility map
+            -- addMapToMilitaryZombies("Base.ResearchFacilityMap", baseChanceZombies/10);
+            -- addMapToSurvivorBag("Base.ResearchFacilityMap", baseChanceSurvivorBag/4);
+            -- addMapToPoliceGlovebox("Base.ResearchFacilityMap", baseChanceGlovebox/10);
+            -- addMapToMilitaryVehicles("Base.ResearchFacilityMap", baseChanceMilitaryVehicles/4);
+        else
+            --MilitaryBaseMap map
+            addMapToMilitaryZombies("Base.MilitaryBaseMap", baseChanceZombies/10);
+            addMapToSurvivorBag("Base.MilitaryBaseMap", baseChanceSurvivorBag/4);
+            addMapToPoliceGlovebox("Base.MilitaryBaseMap", baseChanceGlovebox/10);
+            addMapToMilitaryVehicles("Base.MilitaryBaseMap", baseChanceMilitaryVehicles/4);
+        end
+        
+        if SandboxVars.MoreMaps.FortBenningMap and getActivatedMods():contains("Fort Benning") then
+            addMapToMilitaryZombies("Base.FortBenningMap", baseChanceZombies);
+            addMapToSurvivorBag("Base.FortBenningMap", baseChanceSurvivorBag/2);
+            addMapToPoliceGlovebox("Base.FortBenningMap", baseChanceGlovebox/4);
+            addMapToMilitaryVehicles("Base.FortBenningMap", baseChanceMilitaryVehicles);
+        end
         if SandboxVars.MoreMaps.FortRedstoneMap and getActivatedMods():contains("FORTREDSTONE") then
             addMapToMilitaryZombies("Base.FortRedstoneMap", baseChanceZombies);
             addMapToSurvivorBag("Base.FortRedstoneMap", baseChanceSurvivorBag/2);
@@ -742,6 +758,19 @@ local function initMapDistributions()
             addMapToPoliceGlovebox("Base.FortRockRidgeMap", baseChanceGlovebox/2);
             addMapToMilitaryVehicles("Base.FortRockRidgeMap", baseChanceMilitaryVehicles);
         end       
+        if SandboxVars.MoreMaps.FortWaterfrontMap and getActivatedMods():contains("Fort Waterfront") then
+            addMapToMilitaryZombies("Base.FortWaterfrontMap", baseChanceZombies);
+            addMapToSurvivorBag("Base.FortWaterfrontMap", baseChanceSurvivorBag/2);
+            addMapToPoliceGlovebox("Base.FortWaterfrontMap", baseChanceGlovebox/2);
+            addMapToMilitaryVehicles("Base.FortWaterfrontMap", baseChanceMilitaryVehicles);
+        end
+        if SandboxVars.MoreMaps.MuldraughMilitaryBaseMap and getActivatedMods():contains("muldraughmilitarybase") then
+            addMapToMilitaryZombies("Base.MuldraughMilitaryBaseMap", baseChanceZombies);
+            addMapToSurvivorBag("Base.MuldraughMilitaryBaseMap", baseChanceSurvivorBag/2);
+            addMapToPoliceGlovebox("Base.MuldraughMilitaryBaseMap", baseChanceGlovebox/2);
+            addMapToMilitaryVehicles("Base.MuldraughMilitaryBaseMap", baseChanceMilitaryVehicles);
+        end
+
         
     end
     if SandboxVars.MoreMaps.SmallTownWestMap then
@@ -1428,6 +1457,41 @@ local function initMapDistributions()
         addMapToCrateRandomJunk("Base.OldPineVillageMap", baseChanceCrateRandomJunk/2);
         addMapToMapCratesFactories("Base.OldPineVillageMap", baseChanceMapFactoryCrate);
     end
+    if SandboxVars.MoreMaps.ChristmasVillageMap and getActivatedMods():contains("ChristmasVillage") then
+        -- ChristmasVillageMap
+        addMapToTownZombies("Base.ChristmasVillageMap", baseChanceZombies/10);
+        addMapToMechanics("Base.ChristmasVillageMap", baseChanceMechanics/10);
+        addMapToMagazineRacks("Base.ChristmasVillageMap", baseChanceMagazineRacks/10);
+        addMapToSidetables("Base.ChristmasVillageMap", baseChanceSideTable/10);
+        addMapToSurvivorBag("Base.ChristmasVillageMap", baseChanceSurvivorBag/10);
+        addMapToGloveboxes("Base.ChristmasVillageMap", baseChanceGlovebox/10);
+        addMapToCrateRandomJunk("Base.ChristmasVillageMap", baseChanceCrateRandomJunk/10);
+        addMapToMapCratesFactories("Base.ChristmasVillageMap", baseChanceMapFactoryCrate);
+    end
+    if SandboxVars.MoreMaps.HyruleCountyMap and getActivatedMods():contains("Hyrule County") then
+        -- HyruleCountyMap
+        addMapToTownZombies("Base.HyruleCountyMap", baseChanceZombies/2);
+        addMapToMechanics("Base.HyruleCountyMap", baseChanceMechanics/2);
+        addMapToMagazineRacks("Base.HyruleCountyMap", baseChanceMagazineRacks/2);
+        addMapToSidetables("Base.HyruleCountyMap", baseChanceSideTable/2);
+        addMapToSurvivorBag("Base.HyruleCountyMap", baseChanceSurvivorBag/4);
+        addMapToGloveboxes("Base.HyruleCountyMap", baseChanceGlovebox/4);
+        addMapToCrateRandomJunk("Base.HyruleCountyMap", baseChanceCrateRandomJunk/2);
+        addMapToMapCratesFactories("Base.HyruleCountyMap", baseChanceMapFactoryCrate);
+    end
+    if SandboxVars.MoreMaps.HongKongDistrictMap and getActivatedMods():contains("DeadinHongKong") then
+        -- HongKongDistrictMap
+        addMapToTownZombies("Base.HongKongDistrictMap", baseChanceZombies/2);
+        addMapToMechanics("Base.HongKongDistrictMap", baseChanceMechanics/2);
+        addMapToMagazineRacks("Base.HongKongDistrictMap", baseChanceMagazineRacks/2);
+        addMapToSidetables("Base.HongKongDistrictMap", baseChanceSideTable/2);
+        addMapToSurvivorBag("Base.HongKongDistrictMap", baseChanceSurvivorBag/4);
+        addMapToGloveboxes("Base.HongKongDistrictMap", baseChanceGlovebox/4);
+        addMapToCrateRandomJunk("Base.HongKongDistrictMap", baseChanceCrateRandomJunk/2);
+        addMapToMapCratesFactories("Base.HongKongDistrictMap", baseChanceMapFactoryCrate);
+    end
+    
+    
 
 end
 

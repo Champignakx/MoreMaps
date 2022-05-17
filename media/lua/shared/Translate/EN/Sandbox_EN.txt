@@ -121,6 +121,9 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_FortRedstoneMap = "Fort Redstone Map (mod)",
 	Sandbox_MoreMaps_FortRedstoneMap_tooltip = "Between Grapeseed and Ravencreek.",
 
+	Sandbox_MoreMaps_FortBenningMap = "Fort Benning Map (mod)",
+	Sandbox_MoreMaps_FortBenningMap_tooltip = "South of Riverside's Country Club.",
+
 	Sandbox_MoreMaps_FortRockRidgeMap = "Fort Rock Ridge Map (mod)",
 	Sandbox_MoreMaps_FortRockRidgeMap_tooltip = "East of Riverside's Country Club, North of Ekron.",
 
@@ -145,4 +148,24 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_OldPineVillageMap = "Map of Old Pine Village (mod)",
 	Sandbox_MoreMaps_OldPineVillageMap_tooltip = "South of March Ridge",
 
+	Sandbox_MoreMaps_ChristmasVillageMap = "Map of Christmas Village (mod)",
+	Sandbox_MoreMaps_ChristmasVillageMap_tooltip = "An island in the river, North East of Louisville,",
+
+	
+	Sandbox_MoreMaps_ResearchFacilityMap = "Map of Research Facility (mod)",
+	Sandbox_MoreMaps_ResearchFacilityMap_tooltip = "South of Fort Redstone",
+
+	
+	
+	Sandbox_MoreMaps_FortWaterfrontMap = "Map of Fort Waterfront (mod)",
+	Sandbox_MoreMaps_FortWaterfrontMap_tooltip = "Between Rosewood and Muldraugh",
+	
+	Sandbox_MoreMaps_MuldraughMilitaryBaseMap = "Map of Muldraugh MilitaryBase (mod)",
+	Sandbox_MoreMaps_MuldraughMilitaryBaseMap_tooltip = "East of Muldraugh",
+
+	Sandbox_MoreMaps_HongKongDistrictMap = "Map of Hong Kong District (mod)",
+	Sandbox_MoreMaps_HongKongDistrictMap_tooltip = "South West of Valley Station",
+
+	Sandbox_MoreMaps_HyruleCountyMap = "Map of Hyrule County (mod)",
+	Sandbox_MoreMaps_HyruleCountyMap_tooltip = "North East of Muldraugh, West of Ekron",
 }

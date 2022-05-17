@@ -90,6 +90,63 @@ option MoreMaps.MilitaryMaps
 	translation = MoreMaps_MilitaryMaps,
 }
 
+option MoreMaps.FortRedstoneMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortRedstoneMap,
+}
+
+option MoreMaps.MilitaryAirportMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MilitaryAirportMap,
+}
+
+option MoreMaps.FortBenningMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortBenningMap,
+}
+
+option MoreMaps.FortRockRidgeMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortRockRidgeMap,
+}
+
+option MoreMaps.MuldraughMilitaryBaseMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MuldraughMilitaryBaseMap,
+}
+
+option MoreMaps.FortWaterfrontMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortWaterfrontMap,
+}
+
+option MoreMaps.FortKnoxMaps
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_FortKnoxMaps,
+}
+
+
 option MoreMaps.RiversideCountryClubMap
 {
 	type = boolean,
@@ -323,13 +380,6 @@ option MoreMaps.SurvivorWarehouseLocation
 	translation = MoreMaps_SurvivorWarehouseLocation,
 }
 
-option MoreMaps.MilitaryAirportMap
-{
-	type = boolean,
-	default = true,
-	page = MoreMaps,
-	translation = MoreMaps_MilitaryAirportMap,
-}
 
 option MoreMaps.CoryerdonMap
 {
@@ -391,21 +441,6 @@ option MoreMaps.SlocanLakeMaps
 	translation = MoreMaps_SlocanLakeMaps,
 }
 
-option MoreMaps.FortKnoxMaps
-{
-	type = boolean,
-	default = true,
-	page = MoreMaps,
-	translation = MoreMaps_FortKnoxMaps,
-}
-
-option MoreMaps.FortRedstoneMap
-{
-	type = boolean,
-	default = true,
-	page = MoreMaps,
-	translation = MoreMaps_FortRedstoneMap,
-}
 
 option MoreMaps.BillionaireSafehouseLocation
 {
@@ -459,11 +494,25 @@ option MoreMaps.OldPineVillageMap
 	translation = MoreMaps_OldPineVillageMap,
 }
 
-option MoreMaps.FortRockRidgeMap
+
+option MoreMaps.ChristmasVillageMap
 {
 	type = boolean,
 	default = true,
 	page = MoreMaps,
-	translation = MoreMaps_FortRockRidgeMap,
+	translation = MoreMaps_ChristmasVillageMap,
 }
-
+option MoreMaps.HyruleCountyMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_HyruleCountyMap,
+}
+option MoreMaps.HongKongDistrictMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_HongKongDistrictMap,
+}

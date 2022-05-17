@@ -97,7 +97,11 @@ local function initForageableMaps()
         -- MILITARY MAPS --
         -------------------
         if SandboxVars.MoreMaps.MilitaryMaps then
-            addMapToForageDefs("MilitaryBaseMap", 10);
+            if getActivatedMods():contains("rbr") then --research facility mod
+                -- addMapToForageDefs("ResearchFacilityMap", 10);
+            else
+                addMapToForageDefs("MilitaryBaseMap", 10);
+            end
             if SandboxVars.MoreMaps.WeatherStationLocations and getActivatedMods():contains("SaveOurStation_KnoxCountry")  then
                 addMapToForageDefs("StationZULULocation", 10);
             end
@@ -110,9 +114,19 @@ local function initForageableMaps()
             if SandboxVars.MoreMaps.FortKnoxMaps and getActivatedMods():contains("FortKnoxLinked") then
                 addMapToForageDefs("FK_FortKnoxMap", 20);
             end
+            if SandboxVars.MoreMaps.FortBenningMap and getActivatedMods():contains("Fort Benning") then
+                addMapToForageDefs("FortBenningMap", 20);
+            end
             if SandboxVars.MoreMaps.FortRockRidgeMap and getActivatedMods():contains("Fort Rock Ridge") then
                 addMapToForageDefs("FortRockRidgeMap", 20);
             end
+            if SandboxVars.MoreMaps.MuldraughMilitaryBaseMap and getActivatedMods():contains("muldraughmilitarybase") then
+                addMapToForageDefs("MuldraughMilitaryBaseMap", 20);
+            end
+            if SandboxVars.MoreMaps.FortWaterfrontMap and getActivatedMods():contains("Fort Waterfront") then
+                addMapToForageDefs("FortWaterfrontMap", 20);
+            end
+
         end
         if SandboxVars.MoreMaps.GrapeseedMap and getActivatedMods():contains("Grapeseed") then
             addMapToForageDefs("GrapeseedMap", 20);
@@ -237,6 +251,15 @@ local function initForageableMaps()
         end
         if SandboxVars.MoreMaps.OldPineVillageMap and getActivatedMods():contains("Old Pine Village") then
             addMapToForageDefs("OldPineVillageMap", 20);
+        end
+        if SandboxVars.MoreMaps.ChristmasVillageMap and getActivatedMods():contains("ChristmasVillage") then
+            addMapToForageDefs("ChristmasVillageMap", 20);
+        end
+        if SandboxVars.MoreMaps.HyruleCountyMap and getActivatedMods():contains("Hyrule County") then
+            addMapToForageDefs("HyruleCountyMap", 20);
+        end
+        if SandboxVars.MoreMaps.HongKongDistrictMap and getActivatedMods():contains("DeadinHongKong") then
+            addMapToForageDefs("HongKongDistrictMap", 20);
         end
         -------------------------------
         ---- Already existing maps ----
