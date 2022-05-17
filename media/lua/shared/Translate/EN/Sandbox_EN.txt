@@ -1,6 +1,8 @@
 Sandbox_EN = {
     Sandbox_MoreMaps = "More Maps",
 
+	Sandbox_MoreMaps_MapLootMultiplier = "Loot multiplier for maps",
+
 	Sandbox_MoreMaps_KentuckyCompleteMap = "Complete map of Kentucky (vanilla)",
 	Sandbox_MoreMaps_KentuckyCompleteMap_tooltip = "Extremely rare - disabled by default",
 	

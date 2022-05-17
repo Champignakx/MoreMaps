@@ -9,6 +9,14 @@ option MoreMaps.ForageableMaps
 	translation = MoreMaps_ForageableMaps,
 }
 
+option MoreMaps.MapLootMultiplier
+{
+	type = double,
+	default = 1.0,
+	page = MoreMaps,
+	translation = MoreMaps_MapLootMultiplier,
+}
+
 option MoreMaps.KentuckyCompleteMap
 {
 	type = boolean,

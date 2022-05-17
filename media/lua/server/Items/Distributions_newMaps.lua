@@ -306,15 +306,15 @@ local function initMapDistributions()
     ---------- MODIFY THESE VALUES TO TWEAK LOOT DISTRIBUTIONS -------------------------------------------------------
     -------- These are the chance for each map item, not the chance to get A map. So it adds up really fast ----------
     ------------------------------------------------------------------------------------------------------------------
-    local baseChanceZombies = 0.2;
-    local baseChanceMagazineRacks = 20;
-    local baseChanceMechanics = 1.5;
-    local baseChanceGlovebox = 0.5; 
-    local baseChanceSideTable = 0.06;
-    local baseChanceSurvivorBag = 30;
-    local baseChanceMapFactoryCrate = 50;
-    local baseChanceCrateRandomJunk = 0.01;
-    local baseChanceMilitaryVehicles = 1.2;
+    local baseChanceZombies = 0.2 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceMagazineRacks = 20 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceMechanics = 1.5 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceGlovebox = 0.5 * SandboxVars.MoreMaps.MapLootMultiplier; 
+    local baseChanceSideTable = 0.06 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceSurvivorBag = 30 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceMapFactoryCrate = 50 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceCrateRandomJunk = 0.01 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceMilitaryVehicles = 1.2 * SandboxVars.MoreMaps.MapLootMultiplier;
     -------------------------------------------------------------------------------------------------------------------
     -------------------------------------------------------------------------------------------------------------------    
     -------------------------------------------------------------------------------------------------------------------
