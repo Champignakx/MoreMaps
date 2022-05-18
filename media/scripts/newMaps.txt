@@ -1231,16 +1231,61 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
-    item HongKongDistrictMap
+
+    item RiverwoodMap
     {
         DisplayCategory     =   Cartography,
         Type				=	Map,
-        DisplayName			=	Map of Hong Kong District,
+        DisplayName			=	Map of Riverwood Map,
         Icon				=	Map,
         Weight				=	0.1,
-        Map                 =   HongKongDistrictMap,
+        Map                 =   RiverwoodMap,
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
 
+    item WesternMilitaryComplexMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Western Military Complex,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   WesternMilitaryComplexMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
+    item ConstructionFactoryMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Construction Factory,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   ConstructionFactoryMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
+    item MansionAdress
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Mansion Adress,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   MansionAdress,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
+    item RiversideSouthExpansionMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Riverside's Gunstore,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   RiversideSouthExpansionMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 }

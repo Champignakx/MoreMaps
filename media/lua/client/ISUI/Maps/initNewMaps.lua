@@ -1302,7 +1302,7 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Rock Ridge')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(6601, 6301, 7100, 6750)
+		mapAPI:setBoundsInSquares(6601, 6301, 7150, 6700)
 		-- overlayPNG(mapUI, 11101, 6901, 0.18, "legend", "media/textures/worldMap/Legend.png")
 		MapUtils.overlayPaper(mapUI)
 	end
@@ -1349,7 +1349,7 @@ local function initMapReveals()
 		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Fort Waterfront')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(10200, 10800, 10500, 11500)
+		mapAPI:setBoundsInSquares(10200, 10900, 10400, 11200)
 		MapUtils.overlayPaper(mapUI)
 	end
 	
@@ -1364,16 +1364,6 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
-	-- Hong Kong
-	-- (13200, 6000, 13800, 6600)
-	LootMaps.Init.HongKongDistrictMap = function(mapUI)
-		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Dead in Hong Kong')
-		MapUtils.initDefaultStyleV1(mapUI)
-		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(13200, 6000, 13800, 6600)
-		MapUtils.overlayPaper(mapUI)
-	end
 
 	-- Hyrule County
 	-- (9300, 7800, 9600, 8400)
@@ -1386,10 +1376,60 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
-	-- TODO
 	-- Riverwood
-	-- ()
+	-- (7800, 7200, 8400, 7800)
+	LootMaps.Init.RiverwoodMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Riverwood')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(7800, 7200, 8400, 7800)
+		MapUtils.overlayPaper(mapUI)
+	end
 
+	--  -- MAPS of Snake's Mod Pack : --  --
+	-- Riverside gunstore extension
+	-- (6000, 5700, 6600, 6000)
+	LootMaps.Init.RiversideSouthExpansionMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Riverside Gunstore')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(6300, 5700, 6600, 6000)
+		MapUtils.overlayPaper(mapUI)
+	end
+	-- Western Military Complex
+	-- (5400, 9000, 5700, 9300)
+	LootMaps.Init.WesternMilitaryComplexMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/MilitaryComplex')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(5400, 9000, 5700, 9300)
+		MapUtils.overlayPaper(mapUI)
+	end
+	-- Mansion Adress
+	-- (11100, 10800, 11400, 11100)
+	LootMaps.Init.MansionAdress = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Mansion')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(11100, 10850, 11350, 11100)
+		MapUtils.overlayPaper(mapUI)
+	end
+	-- Construction Factory location
+	-- (12600, 11100, 12900, 11400)
+	LootMaps.Init.ConstructionFactoryMap = function(mapUI)
+		local mapAPI = mapUI.javaObject:getAPIv1()
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Factory')
+		MapUtils.initDefaultStyleV1(mapUI)
+		replaceWaterStyle(mapUI)
+		mapAPI:setBoundsInSquares(12600, 11100, 12900, 11400)
+		MapUtils.overlayPaper(mapUI)
+	end
+
+	-- TODO
 	-- Firecamp, KY whent it is added
 	-- westwood when it is added
 	-- Frankfort, KY when it is added

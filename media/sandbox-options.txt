@@ -12,7 +12,9 @@ option MoreMaps.ForageableMaps
 option MoreMaps.MapLootMultiplier
 {
 	type = double,
-	default = 1.0,
+	default = 1,
+	min = 0,
+	max = 4,
 	page = MoreMaps,
 	translation = MoreMaps_MapLootMultiplier,
 }
@@ -517,10 +519,44 @@ option MoreMaps.HyruleCountyMap
 	page = MoreMaps,
 	translation = MoreMaps_HyruleCountyMap,
 }
-option MoreMaps.HongKongDistrictMap
+
+
+option MoreMaps.RiverwoodMap
 {
 	type = boolean,
 	default = true,
 	page = MoreMaps,
-	translation = MoreMaps_HongKongDistrictMap,
+	translation = MoreMaps_RiverwoodMap,
+}
+
+option MoreMaps.WesternMilitaryComplexMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_WesternMilitaryComplexMap,
+}
+
+option MoreMaps.RiversideSouthExpansionMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_RiversideSouthExpansionMap,
+}
+
+option MoreMaps.MansionAdress
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_MansionAdress,
+}
+
+option MoreMaps.ConstructionFactoryMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_ConstructionFactoryMap,
 }

@@ -126,7 +126,9 @@ local function initForageableMaps()
             if SandboxVars.MoreMaps.FortWaterfrontMap and getActivatedMods():contains("Fort Waterfront") then
                 addMapToForageDefs("FortWaterfrontMap", 20);
             end
-
+            if SandboxVars.MoreMaps.WesternMilitaryComplexMap and getActivatedMods():contains("MilitaryComplex") then
+                addMapToForageDefs("WesternMilitaryComplexMap", 20);
+            end
         end
         if SandboxVars.MoreMaps.GrapeseedMap and getActivatedMods():contains("Grapeseed") then
             addMapToForageDefs("GrapeseedMap", 20);
@@ -258,8 +260,21 @@ local function initForageableMaps()
         if SandboxVars.MoreMaps.HyruleCountyMap and getActivatedMods():contains("Hyrule County") then
             addMapToForageDefs("HyruleCountyMap", 20);
         end
-        if SandboxVars.MoreMaps.HongKongDistrictMap and getActivatedMods():contains("DeadinHongKong") then
-            addMapToForageDefs("HongKongDistrictMap", 20);
+        -- if getActivatedMods():contains("DeadinHongKong") then
+        --     addMapToForageDefs("HongKongDistrictMap", 20);
+        -- end
+        if SandboxVars.MoreMaps.RiverwoodMap and getActivatedMods():contains("Riverwood") then
+            addMapToForageDefs("RiverwoodMap", 20);
+        end
+        -- SNAKE MOD PACK maps
+        if SandboxVars.MoreMaps.RiversideSouthExpansionMap and getActivatedMods():contains("Riverside Gunstore") then
+            addMapToForageDefs("RiverwoodMap", 20);
+        end
+        if SandboxVars.MoreMaps.MansionAdress and getActivatedMods():contains("SnakeMansion") then
+            addMapToForageDefs("MansionAdress", 10);
+        end
+        if SandboxVars.MoreMaps.ConstructionFactoryMap and getActivatedMods():contains("Factory") then
+            addMapToForageDefs("ConstructionFactoryMap", 15);
         end
         -------------------------------
         ---- Already existing maps ----

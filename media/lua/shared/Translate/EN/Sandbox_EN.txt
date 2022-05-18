@@ -1,7 +1,11 @@
 Sandbox_EN = {
     Sandbox_MoreMaps = "More Maps",
 
+    Sandbox_MoreMaps_ForageableMaps =  "All added maps are forageable",
+	Sandbox_MoreMaps_ForageableMaps_tooltip="As junk items, with the same chance as the vanilla maps, some rarer.",
+	
 	Sandbox_MoreMaps_MapLootMultiplier = "Loot multiplier for maps",
+	Sandbox_MoreMaps_MapLootMultiplier_tooltip = "All map items added will have their loot chances multiplied by this value.<br>Use this to tweak loot chances according to the number of maps you use.<br>By default(=1) it is balanced for when most maps are enabled.",
 
 	Sandbox_MoreMaps_KentuckyCompleteMap = "Complete map of Kentucky (vanilla)",
 	Sandbox_MoreMaps_KentuckyCompleteMap_tooltip = "Extremely rare - disabled by default",
@@ -50,8 +54,6 @@ Sandbox_EN = {
 	MoreMaps_AbandonedFactoryMap = "Abandoned Factory Map (vanilla)",
 	MoreMaps_AbandonedFactoryMap_tooltip = "West of Scenic Grove",
 
-    Sandbox_MoreMaps_ForageableMaps =  "All added maps are forageable",
-	Sandbox_MoreMaps_ForageableMaps_tooltip="As junk items, with the same chance as the vanilla maps, some rarer.",
 
 	Sandbox_MoreMaps_GrapeseedMap = "Grapeseed Map (mod)",
 	Sandbox_MoreMaps_GrapeseedMap_tooltip = "West of Rosewood",
@@ -141,7 +143,7 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_RemusMap = "Monmouth County Map (mod)",
 	Sandbox_MoreMaps_RemusMap_tooltip = "East of Rosewood, West of Grapeseed",
 
-	Sandbox_MoreMaps_TrimbleCountyMaps = "Maps of Trimble County (power station and La Grange) (mod)",
+	Sandbox_MoreMaps_TrimbleCountyMaps = "Maps of Trimble County (x2) (mod)",
 	Sandbox_MoreMaps_TrimbleCountyMaps_tooltip = "West of Louisville",
 
 	Sandbox_MoreMaps_EZPZCommunityCenterMap = "Map of EZPZ Community Center (mod)",
@@ -157,7 +159,8 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_ResearchFacilityMap = "Map of Research Facility (mod)",
 	Sandbox_MoreMaps_ResearchFacilityMap_tooltip = "South of Fort Redstone",
 
-	
+	Sandbox_MoreMaps_RiverwoodMap = "Map of Riverwood (mod)",
+	Sandbox_MoreMaps_RiverwoodMap_tooltip = "North of Ekron",
 	
 	Sandbox_MoreMaps_FortWaterfrontMap = "Map of Fort Waterfront (mod)",
 	Sandbox_MoreMaps_FortWaterfrontMap_tooltip = "Between Rosewood and Muldraugh",
@@ -165,9 +168,18 @@ Sandbox_EN = {
 	Sandbox_MoreMaps_MuldraughMilitaryBaseMap = "Map of Muldraugh MilitaryBase (mod)",
 	Sandbox_MoreMaps_MuldraughMilitaryBaseMap_tooltip = "East of Muldraugh",
 
-	Sandbox_MoreMaps_HongKongDistrictMap = "Map of Hong Kong District (mod)",
-	Sandbox_MoreMaps_HongKongDistrictMap_tooltip = "South West of Valley Station",
-
 	Sandbox_MoreMaps_HyruleCountyMap = "Map of Hyrule County (mod)",
 	Sandbox_MoreMaps_HyruleCountyMap_tooltip = "North East of Muldraugh, West of Ekron",
+
+	Sandbox_MoreMaps_WesternMilitaryComplexMap = "Western Military Complex Map (Snake's mod pack)",
+	Sandbox_MoreMaps_WesternMilitaryComplexMap_tooltip = "South West of Ekron",
+
+	Sandbox_MoreMaps_ConstructionFactoryMap = "Construction Factory Map (Snake's mod pack)",
+	Sandbox_MoreMaps_ConstructionFactoryMap_tooltip = "South East of Muldraugh",
+
+	Sandbox_MoreMaps_RiversideSouthExpansionMap = "Riverside Gunstore Map (Snake's mod pack)",
+	Sandbox_MoreMaps_RiversideSouthExpansionMap_tooltip = "South of Riverside",
+
+	Sandbox_MoreMaps_MansionAdress = "Mansion Adress (Snake's mod pack)",
+	Sandbox_MoreMaps_MansionAdress_tooltip = "South East of Muldraugh",
 }
