@@ -1387,17 +1387,19 @@ local function initMapReveals()
 		MapUtils.overlayPaper(mapUI)
 	end
 
-	--  -- MAPS of Snake's Mod Pack : --  --
-	-- Riverside gunstore extension
-	-- (6000, 5700, 6600, 6000)
-	LootMaps.Init.RiversideSouthExpansionMap = function(mapUI)
+	-- Hong Kong Map
+	-- (13200, 6000, 13800, 6600)
+	LootMaps.Init.HongKongYauMaTeiMap = function(mapUI)
 		local mapAPI = mapUI.javaObject:getAPIv1()
-		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Riverside Gunstore')
+		MapUtils.initDirectoryMapData(mapUI, 'media/maps/Dead in Hong Kong')
 		MapUtils.initDefaultStyleV1(mapUI)
 		replaceWaterStyle(mapUI)
-		mapAPI:setBoundsInSquares(6300, 5700, 6600, 6000)
+		mapAPI:setBoundsInSquares(13200, 6000, 13800, 6600)
 		MapUtils.overlayPaper(mapUI)
 	end
+
+	--  -- MAPS of Snake's Mod Pack : --  --
+
 	-- Western Military Complex
 	-- (5400, 9000, 5700, 9300)
 	LootMaps.Init.WesternMilitaryComplexMap = function(mapUI)

@@ -528,6 +528,13 @@ option MoreMaps.RiverwoodMap
 	page = MoreMaps,
 	translation = MoreMaps_RiverwoodMap,
 }
+option MoreMaps.HongKongYauMaTeiMap
+{
+	type = boolean,
+	default = true,
+	page = MoreMaps,
+	translation = MoreMaps_HongKongYauMaTeiMap,
+}
 
 option MoreMaps.WesternMilitaryComplexMap
 {
@@ -535,14 +542,6 @@ option MoreMaps.WesternMilitaryComplexMap
 	default = true,
 	page = MoreMaps,
 	translation = MoreMaps_WesternMilitaryComplexMap,
-}
-
-option MoreMaps.RiversideSouthExpansionMap
-{
-	type = boolean,
-	default = true,
-	page = MoreMaps,
-	translation = MoreMaps_RiversideSouthExpansionMap,
 }
 
 option MoreMaps.MansionAdress

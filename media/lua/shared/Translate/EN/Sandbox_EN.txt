@@ -161,6 +161,9 @@ Sandbox_EN = {
 
 	Sandbox_MoreMaps_RiverwoodMap = "Map of Riverwood (mod)",
 	Sandbox_MoreMaps_RiverwoodMap_tooltip = "North of Ekron",
+
+	Sandbox_MoreMaps_HongKongYauMaTeiMap = "Map of Yau Ma Tei - Dead In Hong Kong (mod)",
+	Sandbox_MoreMaps_HongKongYauMaTeiMap_tooltip = "North of East of Valley Station's Mall",
 	
 	Sandbox_MoreMaps_FortWaterfrontMap = "Map of Fort Waterfront (mod)",
 	Sandbox_MoreMaps_FortWaterfrontMap_tooltip = "Between Rosewood and Muldraugh",
@@ -176,9 +179,6 @@ Sandbox_EN = {
 
 	Sandbox_MoreMaps_ConstructionFactoryMap = "Construction Factory Map (Snake's mod pack)",
 	Sandbox_MoreMaps_ConstructionFactoryMap_tooltip = "South East of Muldraugh",
-
-	Sandbox_MoreMaps_RiversideSouthExpansionMap = "Riverside Gunstore Map (Snake's mod pack)",
-	Sandbox_MoreMaps_RiversideSouthExpansionMap_tooltip = "South of Riverside",
 
 	Sandbox_MoreMaps_MansionAdress = "Mansion Adress (Snake's mod pack)",
 	Sandbox_MoreMaps_MansionAdress_tooltip = "South East of Muldraugh",

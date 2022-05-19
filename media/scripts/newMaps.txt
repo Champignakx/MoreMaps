@@ -1243,6 +1243,17 @@ module Base
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }
+    item HongKongYauMaTeiMap
+    {
+        DisplayCategory     =   Cartography,
+        Type				=	Map,
+        DisplayName			=	Map of Yau Ma Tei - Hong Kong,
+        Icon				=	Map,
+        Weight				=	0.1,
+        Map                 =   HongKongYauMaTeiMap,
+        SurvivalGear        =   TRUE,
+        WorldStaticModel    =   Map,
+    }
 
     item WesternMilitaryComplexMap
     {
@@ -1274,17 +1285,6 @@ module Base
         Icon				=	Map,
         Weight				=	0.1,
         Map                 =   MansionAdress,
-        SurvivalGear        =   TRUE,
-        WorldStaticModel    =   Map,
-    }
-    item RiversideSouthExpansionMap
-    {
-        DisplayCategory     =   Cartography,
-        Type				=	Map,
-        DisplayName			=	Map of Riverside's Gunstore,
-        Icon				=	Map,
-        Weight				=	0.1,
-        Map                 =   RiversideSouthExpansionMap,
         SurvivalGear        =   TRUE,
         WorldStaticModel    =   Map,
     }

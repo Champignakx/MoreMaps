@@ -260,16 +260,10 @@ local function initForageableMaps()
         if SandboxVars.MoreMaps.HyruleCountyMap and getActivatedMods():contains("Hyrule County") then
             addMapToForageDefs("HyruleCountyMap", 20);
         end
-        -- if getActivatedMods():contains("DeadinHongKong") then
-        --     addMapToForageDefs("HongKongDistrictMap", 20);
-        -- end
-        if SandboxVars.MoreMaps.RiverwoodMap and getActivatedMods():contains("Riverwood") then
-            addMapToForageDefs("RiverwoodMap", 20);
+        if getActivatedMods():contains("DeadinHongKong") then
+            addMapToForageDefs("HongKongYauMaTeiMap", 20);
         end
         -- SNAKE MOD PACK maps
-        if SandboxVars.MoreMaps.RiversideSouthExpansionMap and getActivatedMods():contains("Riverside Gunstore") then
-            addMapToForageDefs("RiverwoodMap", 20);
-        end
         if SandboxVars.MoreMaps.MansionAdress and getActivatedMods():contains("SnakeMansion") then
             addMapToForageDefs("MansionAdress", 10);
         end

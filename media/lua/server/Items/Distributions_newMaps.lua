@@ -308,7 +308,7 @@ local function initMapDistributions()
     -------- These are the chance for each map item, not the chance to get A map. So it adds up really fast ----------
     ------------------------------------------------------------------------------------------------------------------
     local baseChanceZombies = 0.3 * SandboxVars.MoreMaps.MapLootMultiplier;
-    local baseChanceMilitaryZombies = 0.6 * SandboxVars.MoreMaps.MapLootMultiplier;
+    local baseChanceMilitaryZombies = 0.8 * SandboxVars.MoreMaps.MapLootMultiplier;
     local baseChanceMagazineRacks = 20;
     local baseChanceMechanics = 1.5 * SandboxVars.MoreMaps.MapLootMultiplier;
     local baseChanceGlovebox = 0.5 * SandboxVars.MoreMaps.MapLootMultiplier; 
@@ -884,6 +884,16 @@ local function initMapDistributions()
         addMapToGloveboxes("Base.monmouthcountymap", baseChanceGlovebox/2);
         addMapToMapCratesFactories("Base.monmouthcountymap", baseChanceMapFactoryCrate/2);
         addMapToCrateRandomJunk("Base.monmouthcountymap", baseChanceCrateRandomJunk/2);
+    end
+    if getActivatedMods():contains("DeadinHongKong") then
+        addMapToTownZombies("Base.HongKongCityMap", baseChanceZombies/5);
+        addMapToMechanics("Base.HongKongCityMap", baseChanceMechanics/5);
+        addMapToMagazineRacks("Base.HongKongCityMap", baseChanceMechanics/5);
+        addMapToSidetables("Base.HongKongCityMap", baseChanceSideTable/5);
+        addMapToSurvivorBag("Base.HongKongCityMap", baseChanceSurvivorBag/5);
+        addMapToGloveboxes("Base.HongKongCityMap", baseChanceGlovebox/5);
+        addMapToMapCratesFactories("Base.HongKongCityMap", baseChanceMapFactoryCrate/5);
+        addMapToCrateRandomJunk("Base.HongKongCityMap", baseChanceCrateRandomJunk/5);
     end
     ------------------------------------------------------------------------------------------------------
     ---------------------------- end of distribution tweaks ----------------------------------------------
@@ -1484,17 +1494,17 @@ local function initMapDistributions()
         addMapToCrateRandomJunk("Base.HyruleCountyMap", baseChanceCrateRandomJunk/2);
         addMapToMapCratesFactories("Base.HyruleCountyMap", baseChanceMapFactoryCrate);
     end
-    -- if SandboxVars.MoreMaps.HongKongDistrictMap and getActivatedMods():contains("DeadinHongKong") then
-    --     -- HongKongDistrictMap
-    --     addMapToTownZombies("Base.HongKongDistrictMap", baseChanceZombies/2);
-    --     addMapToMechanics("Base.HongKongDistrictMap", baseChanceMechanics/2);
-    --     addMapToMagazineRacks("Base.HongKongDistrictMap", baseChanceMagazineRacks/2);
-    --     addMapToSidetables("Base.HongKongDistrictMap", baseChanceSideTable/2);
-    --     addMapToSurvivorBag("Base.HongKongDistrictMap", baseChanceSurvivorBag/4);
-    --     addMapToGloveboxes("Base.HongKongDistrictMap", baseChanceGlovebox/4);
-    --     addMapToCrateRandomJunk("Base.HongKongDistrictMap", baseChanceCrateRandomJunk/2);
-    --     addMapToMapCratesFactories("Base.HongKongDistrictMap", baseChanceMapFactoryCrate);
-    -- end
+    if SandboxVars.MoreMaps.HongKongYauMaTeiMap and getActivatedMods():contains("DeadinHongKong") then
+        -- HongKongYauMaTeiMap
+        addMapToTownZombies("Base.HongKongYauMaTeiMap", baseChanceZombies/2);
+        addMapToMechanics("Base.HongKongYauMaTeiMap", baseChanceMechanics/2);
+        addMapToMagazineRacks("Base.HongKongYauMaTeiMap", baseChanceMagazineRacks/2);
+        addMapToSidetables("Base.HongKongYauMaTeiMap", baseChanceSideTable/2);
+        addMapToSurvivorBag("Base.HongKongYauMaTeiMap", baseChanceSurvivorBag/4);
+        addMapToGloveboxes("Base.HongKongYauMaTeiMap", baseChanceGlovebox/4);
+        addMapToCrateRandomJunk("Base.HongKongYauMaTeiMap", baseChanceCrateRandomJunk/2);
+        addMapToMapCratesFactories("Base.HongKongYauMaTeiMap", baseChanceMapFactoryCrate);
+    end
     
     if SandboxVars.MoreMaps.RiverwoodMap and getActivatedMods():contains("Riverwood") then
         -- HongKongDistrictMap
@@ -1507,19 +1517,6 @@ local function initMapDistributions()
         addMapToGloveboxes("Base.RiverwoodMap", baseChanceGlovebox/4);
         addMapToCrateRandomJunk("Base.RiverwoodMap", baseChanceCrateRandomJunk/2);
         addMapToMapCratesFactories("Base.RiverwoodMap", baseChanceMapFactoryCrate);
-    end
-    
-    
-    if SandboxVars.MoreMaps.RiversideSouthExpansionMap and getActivatedMods():contains("Riverside Gunstore") then
-        -- RiversideSouthExpansionMap
-        addMapToTownZombies("Base.RiversideSouthExpansionMap", baseChanceZombies/4);
-        addMapToMechanics("Base.RiversideSouthExpansionMap", baseChanceMechanics/4);
-        addMapToMagazineRacks("Base.RiversideSouthExpansionMap", baseChanceMagazineRacks/4);
-        addMapToSidetables("Base.RiversideSouthExpansionMap", baseChanceSideTable/4);
-        addMapToSurvivorBag("Base.RiversideSouthExpansionMap", baseChanceSurvivorBag/4);
-        addMapToGloveboxes("Base.RiversideSouthExpansionMap", baseChanceGlovebox/4);
-        addMapToCrateRandomJunk("Base.RiversideSouthExpansionMap", baseChanceCrateRandomJunk/4);
-        addMapToMapCratesFactories("Base.RiversideSouthExpansionMap", baseChanceMapFactoryCrate);
     end
     
     
